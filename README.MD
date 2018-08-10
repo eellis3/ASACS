@@ -9,35 +9,35 @@ real-time reports on available beds or meals.
 
 See Project Details PDF for more info.
 
-DB login
-Username:  root
+DB login  
+Username:  root  
 Password:  rootroot
 
-SQL is located:
-ASACS_app\sql\team092_p3_complete.sql
-Main Code:
-ACACS_app\ASACS_app.py
-HTML files:
+SQL is located:  
+ASACS_app\sql\team092_p3_complete.sql  
+Main Code:  
+ACACS_app\ASACS_app.py  
+HTML files:  
 ACACS_app\templates\
 
-To run the app:
-Python v2.7
-pip install flask
-pip install flask-mysql
-pip install pygal
+To run the app:  
+Python v2.7  
+pip install flask  
+pip install flask-mysql  
+pip install pygal  
 
-Then chang user, password, and port if needed.
-app.config['MYSQL_DATABASE_USER'] = 'root'
-## add your password you created when you installed Bitnami WAMP
-app.config['MYSQL_DATABASE_PASSWORD'] = 'admin'
-app.config['MYSQL_DATABASE_DB'] = 'cs6400_sp17_team092'
-app.config['MYSQL_DATABASE_HOST'] = 'localhost'
-app.config['MYSQL_DATABASE_PORT'] = 8080
+Then chang user, password, and port if needed.  
+app.config['MYSQL_DATABASE_USER'] = 'root'  
+add your password you created when you installed Bitnami WAMP  
+app.config['MYSQL_DATABASE_PASSWORD'] = 'admin'  
+app.config['MYSQL_DATABASE_DB'] = 'cs6400_sp17_team092'  
+app.config['MYSQL_DATABASE_HOST'] = 'localhost'  
+app.config['MYSQL_DATABASE_PORT'] = 8080  
 
-Good Websites:
-http://flask.pocoo.org/docs/0.12/
-https://code.tutsplus.com/tutorials/creating-a-web-app-from-scratch-using-python-flask-and-mysql--cms-22972
-http://codehandbook.org/python-web-application-flask-mysql/
-http://codehandbook.org/restful-api-using-python-flask-mysql-part-2/
-https://scotch.io/tutorials/build-a-crud-web-app-with-python-and-flask-part-one
-http://www.tutorialspoint.com/flask/
+Good Websites:  
+http://flask.pocoo.org/docs/0.12/  
+https://code.tutsplus.com/tutorials/creating-a-web-app-from-scratch-using-python-flask-and-mysql--cms-22972  
+http://codehandbook.org/python-web-application-flask-mysql/  
+http://codehandbook.org/restful-api-using-python-flask-mysql-part-2/  
+https://scotch.io/tutorials/build-a-crud-web-app-with-python-and-flask-part-one  
+http://www.tutorialspoint.com/flask/  
