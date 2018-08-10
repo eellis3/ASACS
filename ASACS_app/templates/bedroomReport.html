@@ -1,0 +1,96 @@
+<html><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+    </head><body>
+
+<div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><span>ASACS App</span></a>
+            {% if session %}
+            <h4>{{ session.firstname }} {{ session.lastname }} {{ session.siteName }}</h4>
+            {% endif %}
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active">
+                    <a href="mainmenu">Main Menu</a>
+                </li>
+                <li>
+                    <a href="logout">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+        <div class="section">
+            <div class="container">
+            <h1>Available Bed/Room Report</h1>
+            {% if resultShelter %}
+            {% for s in resultShelter %}
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3>{{s[1]}}&nbsp;</h3>
+                        {% if resultHO %}
+                            <h4>&nbsp;Hours of Operation:&nbsp;</h4>
+                            {% for ho in resultHO %}
+                                {% if s[0] == ho.serviceid %}
+                                    <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp {{ho.day}}: {{ho.open}} to {{ho.closed}}&nbsp;</span><br>
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table">
+
+                        {% if resultBR %}
+                            {% for br in resultBR %}
+                                {% if s[0] == br[0] %}
+                                    <thead>
+                                        <span>Site: {{br[9]}}</span><br>
+                                        <span>Phone Number: {{br[10]}}</span><br>
+                                        <span>Conditions: {{br[11]}}</span><br>
+                                        <tr>
+                                            <th>Male Bunks</th>
+                                            <th>Female Bunks</th>
+                                            <th>Mixed Bunks</th>
+                                            <th>Family Rooms</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>{{br[1]}} / {{br[2]}}</td>
+                                            <td>{{br[3]}} / {{br[4]}}</td>
+                                            <td>{{br[5]}} / {{br[6]}}</td>
+                                            <td>{{br[7]}} / {{br[8]}}</td>
+                                        </tr>
+                                    </tbody>
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
+                        </table>
+                    </div>
+                </div>
+            {% endfor %}
+            {% else %}
+                <tbody> Sorry no available beds or rooms. </tbody>
+            {% endif %}
+
+            </div>
+        </div>
+    </div>
+</div></body></html>

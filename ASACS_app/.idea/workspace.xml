@@ -1,0 +1,2390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e967c5e-8f99-44ac-9d2f-2e9205e0d0c9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ASACS_app.py" afterPath="$PROJECT_DIR$/ASACS_app.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ASACS_app$testFile.coverage" NAME="testFile Coverage Results" MODIFIED="1490810154369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ASACS_app$ASACS_app.coverage" NAME="ASACS_app Coverage Results" MODIFIED="1492402519609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
+      <file leaf-file-name="ASACS_app.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ASACS_app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#75#0" expanded="true" />
+                <marker date="1492402518205" expanded="true" signature="3389:4229" ph="SELECT R.req... ItemRequests" />
+                <marker date="1492402518205" expanded="true" signature="4763:5310" ph="SELECT IFNUL... Shelter" />
+                <marker date="1492402518205" expanded="true" signature="5438:5485" ph="SELECT count... Service" />
+                <marker date="1492402518205" expanded="true" signature="5702:6108" ph="Select SUM(i... ItemRequests" />
+                <marker date="1492402518205" expanded="true" signature="6908:7028" ph="SELECT first... Users" />
+                <marker date="1492402518205" expanded="true" signature="7500:7539" ph="SELECT siten... Site" />
+                <marker date="1492402518205" expanded="true" signature="8057:8121" ph="SELECT * FRO... Site" />
+                <marker date="1492402518205" expanded="true" signature="9881:9962" ph="SELECT * FRO... Items" />
+                <marker date="1492402518205" expanded="true" signature="10015:10102" ph="SELECT * FRO... Items" />
+                <marker date="1492402518205" expanded="true" signature="13551:13628" ph="SELECT typen... ItemType" />
+                <marker date="1492402518205" expanded="true" signature="15152:15216" ph="SELECT servi... Items" />
+                <marker date="1492402518205" expanded="true" signature="15657:15749" ph="SELECT reque... ItemRequests" />
+                <marker date="1492402518205" expanded="true" signature="17486:17550" ph="SELECT servi... Items" />
+                <marker date="1492402518205" expanded="true" signature="18244:18289" ph="UPDATE Items... " />
+                <marker date="1492402518205" expanded="true" signature="19230:19269" ph="INSERT INTO Service... " />
+                <marker date="1492402518205" expanded="true" signature="19374:19416" ph="SELECT MAX(S... Service" />
+                <marker date="1492402518205" expanded="true" signature="19511:19586" ph="INSERT INTO SoupKitchen... " />
+                <marker date="1492402518205" expanded="true" signature="19729:19817" ph="INSERT INTO HoursOfOperation... " />
+                <marker date="1492402518205" expanded="true" signature="19974:20038" ph="INSERT INTO Conditions... " />
+                <marker date="1492402518205" expanded="true" signature="20213:20256" ph="INSERT INTO FoodBank... " />
+                <marker date="1492402518205" expanded="true" signature="20404:20468" ph="INSERT INTO FoodPantry... " />
+                <marker date="1492402518205" expanded="true" signature="20589:20677" ph="INSERT INTO HoursOfOperation... " />
+                <marker date="1492402518205" expanded="true" signature="20837:20901" ph="INSERT INTO Conditions... " />
+                <marker date="1492402518205" expanded="true" signature="21076:21137" ph="INSERT INTO Shelter... " />
+                <marker date="1492402518205" expanded="true" signature="21258:21346" ph="INSERT INTO HoursOfOperation... " />
+                <marker date="1492402518205" expanded="true" signature="21506:21643" ph="INSERT INTO Bunks... " />
+                <marker date="1492402518205" expanded="true" signature="21882:21942" ph="INSERT INTO FamilyRoom... " />
+                <marker date="1492402518205" expanded="true" signature="22061:22125" ph="INSERT INTO Conditions... " />
+                <marker date="1492402518205" expanded="true" signature="24136:24175" ph="UPDATE Items... " />
+                <marker date="1492402518205" expanded="true" signature="24405:24515" ph="INSERT INTO Items... " />
+                <marker date="1492402518205" expanded="true" signature="25325:25369" ph="DELETE FROM " />
+                <marker date="1492402518205" expanded="true" signature="25682:25795" ph="SELECT I.uni... Items" />
+                <marker date="1492402518205" expanded="true" signature="26078:26117" ph="UPDATE Items... " />
+                <marker date="1492402518205" expanded="true" signature="26178:26235" ph="UPDATE ItemR... " />
+                <marker date="1492402518205" expanded="true" signature="26583:26620" ph="DELETE FROM " />
+                <marker date="1492402518205" expanded="true" signature="26705:26814" ph="SELECT itemi... Items" />
+                <marker date="1492402518205" expanded="true" signature="27184:27225" ph="SELECT itemt... Itemtype" />
+                <marker date="1492402518205" expanded="true" signature="27480:28017" ph="SELECT ir.it... ItemRequests" />
+                <marker date="1492402518205" expanded="true" signature="28106:28502" ph="SELECT ir.re... ItemRequests" />
+                <marker date="1492402518205" expanded="true" signature="30237:30407" ph="UPDATE SoupK... " />
+                <marker date="1492402518205" expanded="true" signature="30614:30727" ph="UPDATE Condi... " />
+                <marker date="1492402518205" expanded="true" signature="31182:31226" ph="DELETE FROM " />
+                <marker date="1492402518205" expanded="true" signature="31354:32049" ph="SELECT Hours... Service" />
+                <marker date="1492402518205" expanded="true" signature="32497:32881" ph="SELECT SoupK... Service" />
+                <marker date="1492402518205" expanded="true" signature="33785:34147" ph="UPDATE Hours... " />
+                <marker date="1492402518205" expanded="true" signature="34760:34891" ph="INSERT INTO HoursOfOperation... " />
+                <marker date="1492402518205" expanded="true" signature="35373:35416" ph="DELETE FROM " />
+                <marker date="1492402518205" expanded="true" signature="36536:36669" ph="UPDATE Shelt... " />
+                <marker date="1492402518205" expanded="true" signature="36779:37023" ph="UPDATE Bunks... " />
+                <marker date="1492402518205" expanded="true" signature="37381:37504" ph="UPDATE Famil... " />
+                <marker date="1492402518205" expanded="true" signature="37617:37731" ph="UPDATE Condi... " />
+                <marker date="1492402518205" expanded="true" signature="38182:38226" ph="DELETE FROM " />
+                <marker date="1492402518205" expanded="true" signature="38515:38598" ph="UPDATE Waitl... " />
+                <marker date="1492402518205" expanded="true" signature="38711:38758" ph="DELETE FROM " />
+                <marker date="1492402518205" expanded="true" signature="39225:39302" ph="SELECT w.wai... Waitlist" />
+                <marker date="1492402518205" expanded="true" signature="39476:39924" ph="UPDATE Waitl... " />
+                <marker date="1492402518205" expanded="true" signature="40193:40832" ph="SELECT Hours... Service" />
+                <marker date="1492402518205" expanded="true" signature="41254:41995" ph="SELECT Servi... Service" />
+                <marker date="1492402518205" expanded="true" signature="42569:42782" ph="SELECT Waitl... Waitlist" />
+                <marker date="1492402518205" expanded="true" signature="43901:44007" ph="UPDATE FoodP... " />
+                <marker date="1492402518205" expanded="true" signature="44116:44228" ph="UPDATE Condi... " />
+                <marker date="1492402518205" expanded="true" signature="44682:44726" ph="DELETE FROM " />
+                <marker date="1492402518205" expanded="true" signature="44853:45524" ph="SELECT Hours... Service" />
+                <marker date="1492402518205" expanded="true" signature="45971:46264" ph="SELECT FoodP... Service" />
+                <marker date="1492402518205" expanded="true" signature="46686:47487" ph="SELECT DISTI... Service" />
+                <marker date="1492402518205" expanded="true" signature="47394:47431" ph="SELECT Shelt... Shelter" />
+                <marker date="1492402518205" expanded="true" signature="47589:47674" ph="SELECT Servi... Service" />
+                <marker date="1492402518205" expanded="true" signature="47589:48017" ph="SELECT Servi... " />
+                <marker date="1492402518205" expanded="true" signature="48406:49358" ph="SELECT Servi... Service" />
+                <marker date="1492402518205" expanded="true" signature="49320:49357" ph="SELECT Shelt... Shelter" />
+                <marker date="1492402518205" expanded="true" signature="50506:50704" ph="SELECT clien... clients" />
+                <marker date="1492402518205" expanded="true" signature="51678:51769" ph="SELECT * FRO... clients" />
+                <marker date="1492402518205" expanded="true" signature="52205:52426" ph="SELECT b.des... waitlist" />
+                <marker date="1492402518205" expanded="true" signature="52774:53070" ph="SELECT a.cli... clientlog" />
+                <marker date="1492402518205" expanded="true" signature="54136:54373" ph="SELECT R.uni... ItemRequests" />
+                <marker date="1492402518205" expanded="true" signature="55191:55249" ph="UPDATE ItemR... " />
+                <marker date="1492402518205" expanded="true" signature="56070:56307" ph="SELECT R.uni... ItemRequests" />
+                <marker date="1492402518205" expanded="true" signature="56722:56778" ph="UPDATE ItemR... " />
+                <marker date="1492402518205" expanded="true" signature="57934:58012" ph="SELECT sitei... users" />
+                <marker date="1492402518205" expanded="true" signature="58072:58173" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+                <marker date="1492402518205" expanded="true" signature="58639:58748" ph="UPDATE cs640... " />
+                <marker date="1492402518205" expanded="true" signature="58895:59002" ph="UPDATE cs640... " />
+                <marker date="1492402518205" expanded="true" signature="59154:59271" ph="UPDATE cs640... " />
+                <marker date="1492402518205" expanded="true" signature="59415:59516" ph="UPDATE cs640... " />
+                <marker date="1492402518205" expanded="true" signature="59657:59734" ph="UPDATE cs640... " />
+                <marker date="1492402518205" expanded="true" signature="59874:59951" ph="UPDATE cs640... " />
+                <marker date="1492402518205" expanded="true" signature="60088:60179" ph="SELECT * FRO... clients" />
+                <marker date="1492402518205" expanded="true" signature="61072:61150" ph="SELECT sitei... users" />
+                <marker date="1492402518205" expanded="true" signature="61214:61315" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+                <marker date="1492402518205" expanded="true" signature="61521:61622" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+                <marker date="1492402518205" expanded="true" signature="61801:62097" ph="SELECT a.cli... clientlog" />
+                <marker date="1492402518205" expanded="true" signature="62822:63396" ph="SELECT mealp... typename" />
+                <marker date="1492402518205" expanded="true" signature="62903:63392" ph="SELECT CASE Items" />
+                <marker date="1492402518205" expanded="true" signature="63604:64101" ph="SELECT CASE Items" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foodBank.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/foodBank.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3468">
+              <caret line="204" column="62" lean-forward="false" selection-start-line="204" selection-start-column="62" selection-end-line="204" selection-end-column="62" />
+              <folding>
+                <marker date="1492401104956" expanded="true" signature="11831:11837" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="itemRequestStatusReport.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/itemRequestStatusReport.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="54" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="itemSearchReport.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/itemSearchReport.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2958">
+              <caret line="174" column="55" lean-forward="false" selection-start-line="174" selection-start-column="55" selection-end-line="174" selection-end-column="124" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainmenu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/mainmenu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1258">
+              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>inputEmail3</find>
+      <find>getSiteNameAndServiceID</find>
+      <find>foodbank</find>
+      <find>showitemre</find>
+      <find>mealsAvailableReport</find>
+      <find>bedroomReport</find>
+      <find>foodBankTable</find>
+      <find>delet</find>
+      <find>soupkitchen</find>
+      <find>addFoodPantryService</find>
+      <find>form</find>
+      <find>add</find>
+      <find>shelterModal</find>
+      <find>editcli</find>
+      <find>soupKitchenModal</find>
+      <find>delete</find>
+      <find>%s</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="eli99" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testFile.py" />
+        <option value="$PROJECT_DIR$/templates/bedroomReport.html" />
+        <option value="$PROJECT_DIR$/templates/clientReport.html" />
+        <option value="$PROJECT_DIR$/templates/clientSearch.html" />
+        <option value="$PROJECT_DIR$/templates/foodPantry.html" />
+        <option value="$PROJECT_DIR$/templates/outstandingRequestReport.html" />
+        <option value="$PROJECT_DIR$/templates/soupKitchen.html" />
+        <option value="$PROJECT_DIR$/templates/mealsAvailableReport.html" />
+        <option value="$PROJECT_DIR$/templates/mainmenu.html" />
+        <option value="$PROJECT_DIR$/templates/itemRequestStatusReport.html" />
+        <option value="$PROJECT_DIR$/templates/itemSearchReport.html" />
+        <option value="$PROJECT_DIR$/templates/viewServices.html" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/addService.html" />
+        <option value="$PROJECT_DIR$/templates/foodBank.html" />
+        <option value="$PROJECT_DIR$/templates/shelter.html" />
+        <option value="$PROJECT_DIR$/ASACS_app.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="205" />
+    <option name="y" value="32" />
+    <option name="width" value="1536" />
+    <option name="height" value="1031" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ASACS_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ASACS_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ASACS_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ASACS_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ASACS_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ASACS_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../6400demo/6400Spring17Team092/Phase 3/ASACS_app" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.ASACS_app">
+    <configuration default="false" name="testFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ASACS_app" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ASACS_app" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ASACS_app" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ASACS_app" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ASACS_app" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="ASACS_app" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ASACS_app" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ASACS_app" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ASACS_app" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ASACS_app" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ASACS_app" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ASACS_app" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ASACS_app" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ASACS_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.ASACS_app" />
+      <item index="1" class="java.lang.String" itemvalue="Python.testFile" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.testFile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e967c5e-8f99-44ac-9d2f-2e9205e0d0c9" name="Default" comment="" />
+      <created>1490382939957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490382939957</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added all webpages and linked them together.">
+      <created>1490826045476</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1490826045476</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added login and logout function.  Added session variables.">
+      <created>1490910450751</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1490910450751</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added info to main menu from the DB">
+      <created>1490916936067</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1490916936067</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added site, service, and items to DB.  Working on item Search report still.">
+      <created>1490928307414</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1490928307415</updated>
+    </task>
+    <task id="LOCAL-00010" summary="changed Items Exp Date to DATE instead of VARCHAR&#10;Search part of item search report is working">
+      <created>1490978135137</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1490978135137</updated>
+    </task>
+    <task id="LOCAL-00011" summary="itemsearch report displays site names, fully functioning search now.">
+      <created>1490981221917</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1490981221917</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Request Item Works">
+      <created>1491002394492</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1491002394492</updated>
+    </task>
+    <task id="LOCAL-00013" summary="working on Edit Item">
+      <created>1491004371087</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1491004371087</updated>
+    </task>
+    <task id="LOCAL-00014" summary="edit item works.  Added header info to itemserachreport of current user's site name">
+      <created>1491067597684</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1491067597684</updated>
+    </task>
+    <task id="LOCAL-00015" summary="misspelled refrigerator in SQL file :(&#10;fixed search bugs">
+      <created>1491071997092</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1491071997092</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added back in getsitename">
+      <created>1491865387501</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1491865387501</updated>
+    </task>
+    <task id="LOCAL-00017" summary="session now has sitename attribute.  &#10;reverted back item search page.  no errors">
+      <created>1491926875760</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1491926875760</updated>
+    </task>
+    <task id="LOCAL-00018" summary="updated passwords to gatech123 for all users due to piazza post 1177">
+      <created>1491927003826</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1491927003826</updated>
+    </task>
+    <task id="LOCAL-00019" summary="getRequests works&#10;added check so no duplicate item requests">
+      <created>1491962147984</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1491962147984</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added Test: only request products from foodbanks not associated with current site">
+      <created>1492037856991</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1492037856991</updated>
+    </task>
+    <task id="LOCAL-00021" summary="changed exp date to search before&#10;changed edit and request to reject null inputs">
+      <created>1492039263340</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1492039263340</updated>
+    </task>
+    <task id="LOCAL-00022" summary="changed back to search by exp date&#10;added exp form instead">
+      <created>1492040636880</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1492040636880</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Item special case: item search from foodbank on Users site shows ‘owned’ status&#10;Highlighted row in green">
+      <created>1492041232719</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1492041232719</updated>
+    </task>
+    <task id="LOCAL-00024" summary="added data fill to sql:  expired items and filled requests for user 4&#10;added status in sql">
+      <created>1492115820597</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1492115820597</updated>
+    </task>
+    <task id="LOCAL-00025" summary="sql: changed itemrequests units &lt; actual units.  can't request more items than exist&#10;edit item request works">
+      <created>1492133505468</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1492133505468</updated>
+    </task>
+    <task id="LOCAL-00026" summary="small changes to sql query">
+      <created>1492135633590</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1492135633590</updated>
+    </task>
+    <task id="LOCAL-00027" summary="cancel button works">
+      <created>1492205506494</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1492205506494</updated>
+    </task>
+    <task id="LOCAL-00028" summary="updated sql file tomatch master">
+      <created>1492206203993</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1492206203993</updated>
+    </task>
+    <task id="LOCAL-00029" summary="changed Items back to not null">
+      <created>1492206708289</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1492206708289</updated>
+    </task>
+    <task id="LOCAL-00030" summary="merged andrews functions">
+      <created>1492208182971</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1492208182971</updated>
+    </task>
+    <task id="LOCAL-00031" summary="reverted back from manual merging">
+      <created>1492209832168</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1492209832168</updated>
+    </task>
+    <task id="LOCAL-00032" summary="merged sql file&#10;changed login - failed when incorrect password">
+      <created>1492212051120</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1492212051120</updated>
+    </task>
+    <task id="LOCAL-00033" summary="removed redundant showitemrequeststatusreport">
+      <created>1492213483625</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1492213483625</updated>
+    </task>
+    <task id="LOCAL-00034" summary="updating sql to match seed data">
+      <created>1492220731043</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1492220731043</updated>
+    </task>
+    <task id="LOCAL-00035" summary="updated seed data to match pdf">
+      <created>1492228019868</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1492228019868</updated>
+    </task>
+    <task id="LOCAL-00036" summary="fixed bedroomreport button">
+      <created>1492276020053</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1492276020053</updated>
+    </task>
+    <task id="LOCAL-00037" summary="sql-fixed deleting Food bank and itemrequest constraint&#10;added bugs">
+      <created>1492283266553</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1492283266553</updated>
+    </task>
+    <task id="LOCAL-00038" summary="hours of op and conditions added for every service&#10;fixed bunk count&#10;fixed waitlist avaliable =0&#10;updated client descriptions">
+      <created>1492290980144</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1492290980144</updated>
+    </task>
+    <task id="LOCAL-00039" summary="added sorting by columns&#10;fixed login screen to have usename/password filled&#10;">
+      <created>1492293242594</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1492293242594</updated>
+    </task>
+    <task id="LOCAL-00040" summary="fixed deleting last service id&#10;">
+      <created>1492296145095</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1492296145095</updated>
+    </task>
+    <task id="LOCAL-00041" summary="fixed add service&#10;added conditions&#10;still need to add multiple hours of op">
+      <created>1492310010871</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1492310010871</updated>
+    </task>
+    <task id="LOCAL-00042" summary="updated excel">
+      <created>1492310257235</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1492310257235</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Merge branch 'master' of https://github.gatech.edu/gt-omscs-dbscd-spr17/6400Spring17Team092 into EliBranch&#10;&#10;# Conflicts:&#10;#&#9;Phase 3/ASACS_app/ASACS_app.py&#10;">
+      <created>1492311610198</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1492311610198</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Merge branch 'master' of https://github.gatech.edu/gt-omscs-dbscd-spr17/6400Spring17Team092 into EliBranch&#10;&#10;# Conflicts:&#10;#&#9;Phase 3/ASACS_app/ASACS_app.py&#10;">
+      <created>1492313172709</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1492313172709</updated>
+    </task>
+    <task id="LOCAL-00045" summary="updated bugs&#10;">
+      <created>1492313358291</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1492313358291</updated>
+    </task>
+    <task id="LOCAL-00046" summary="changed back addservice and check for last service before deleting&#10;">
+      <created>1492362726543</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1492362726543</updated>
+    </task>
+    <task id="LOCAL-00047" summary="set sql mode to '' to fix group by queries">
+      <created>1492364954751</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1492364954752</updated>
+    </task>
+    <task id="LOCAL-00048" summary="units approved now decrements from item.units and checks to not approve toomany units">
+      <created>1492370433388</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1492370433388</updated>
+    </task>
+    <task id="LOCAL-00049" summary="fixed bar chart on itemrequest page">
+      <created>1492371425262</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1492371425262</updated>
+    </task>
+    <task id="LOCAL-00050" summary="fixed bar chart on itemrequest page">
+      <created>1492373022961</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1492373022962</updated>
+    </task>
+    <task id="LOCAL-00051" summary="fixed insert and approval">
+      <created>1492395714699</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1492395714699</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Merge branch 'master' of https://github.gatech.edu/gt-omscs-dbscd-spr17/6400Spring17Team092&#10;&#10;# Conflicts:&#10;#&#9;Phase 3/ASACS_app/ASACS_app.py&#10;">
+      <created>1492396269972</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1492396269972</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fixed missing ' ' on %s for strings">
+      <created>1492397252034</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1492397252034</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Merge branch 'master' of https://github.gatech.edu/gt-omscs-dbscd-spr17/6400Spring17Team092&#10;&#10;# Conflicts:&#10;#&#9;Phase 3/ASACS_app/ASACS_app.py&#10;">
+      <created>1492397328004</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1492397328004</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="205" y="32" width="1536" height="1031" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13414635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19747235" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21850613" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983872" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14449541" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1800948" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22247706" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="cancel button works" />
+    <MESSAGE value="updated sql file tomatch master" />
+    <MESSAGE value="changed Items back to not null" />
+    <MESSAGE value="merged andrews functions" />
+    <MESSAGE value="reverted back from manual merging" />
+    <MESSAGE value="merged sql file&#10;changed login - failed when incorrect password" />
+    <MESSAGE value="removed redundant showitemrequeststatusreport" />
+    <MESSAGE value="updating sql to match seed data" />
+    <MESSAGE value="updated seed data to match pdf" />
+    <MESSAGE value="fixed bedroomreport button" />
+    <MESSAGE value="sql-fixed deleting Food bank and itemrequest constraint&#10;added bugs" />
+    <MESSAGE value="hours of op and conditions added for every service&#10;fixed bunk count&#10;fixed waitlist avaliable =0&#10;updated client descriptions" />
+    <MESSAGE value="added sorting by columns&#10;fixed login screen to have usename/password filled&#10;" />
+    <MESSAGE value="fixed deleting last service id&#10;" />
+    <MESSAGE value="fixed add service&#10;added conditions&#10;still need to add multiple hours of op" />
+    <MESSAGE value="updated excel" />
+    <MESSAGE value="Merge branch 'master' of https://github.gatech.edu/gt-omscs-dbscd-spr17/6400Spring17Team092 into EliBranch&#10;&#10;# Conflicts:&#10;#&#9;Phase 3/ASACS_app/ASACS_app.py&#10;" />
+    <MESSAGE value="updated bugs&#10;" />
+    <MESSAGE value="changed back addservice and check for last service before deleting&#10;" />
+    <MESSAGE value="set sql mode to '' to fix group by queries" />
+    <MESSAGE value="units approved now decrements from item.units and checks to not approve toomany units" />
+    <MESSAGE value="fixed bar chart on itemrequest page" />
+    <MESSAGE value="fixed insert and approval" />
+    <MESSAGE value="fixed missing ' ' on %s for strings" />
+    <MESSAGE value="Merge branch 'master' of https://github.gatech.edu/gt-omscs-dbscd-spr17/6400Spring17Team092&#10;&#10;# Conflicts:&#10;#&#9;Phase 3/ASACS_app/ASACS_app.py&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.gatech.edu/gt-omscs-dbscd-spr17/6400Spring17Team092&#10;&#10;# Conflicts:&#10;#&#9;Phase 3/ASACS_app/ASACS_app.py&#10;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/mealsAvailableReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="60" lean-forward="true" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/itemSearchReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="127" lean-forward="false" selection-start-line="22" selection-start-column="116" selection-end-line="22" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ASACS_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1492402518205" expanded="true" signature="3389:4229" ph="SELECT R.req... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="4763:5310" ph="SELECT IFNUL... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="5438:5485" ph="SELECT count... Service" />
+            <marker date="1492402518205" expanded="true" signature="5702:6108" ph="Select SUM(i... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="6908:7028" ph="SELECT first... Users" />
+            <marker date="1492402518205" expanded="true" signature="7500:7539" ph="SELECT siten... Site" />
+            <marker date="1492402518205" expanded="true" signature="8057:8121" ph="SELECT * FRO... Site" />
+            <marker date="1492402518205" expanded="true" signature="9881:9962" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="10015:10102" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="13551:13628" ph="SELECT typen... ItemType" />
+            <marker date="1492402518205" expanded="true" signature="15152:15216" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="15657:15749" ph="SELECT reque... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="17486:17550" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="18244:18289" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="19230:19269" ph="INSERT INTO Service... " />
+            <marker date="1492402518205" expanded="true" signature="19374:19416" ph="SELECT MAX(S... Service" />
+            <marker date="1492402518205" expanded="true" signature="19511:19586" ph="INSERT INTO SoupKitchen... " />
+            <marker date="1492402518205" expanded="true" signature="19729:19817" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="19974:20038" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="20213:20256" ph="INSERT INTO FoodBank... " />
+            <marker date="1492402518205" expanded="true" signature="20404:20468" ph="INSERT INTO FoodPantry... " />
+            <marker date="1492402518205" expanded="true" signature="20589:20677" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="20837:20901" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="21076:21137" ph="INSERT INTO Shelter... " />
+            <marker date="1492402518205" expanded="true" signature="21258:21346" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="21506:21643" ph="INSERT INTO Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="21882:21942" ph="INSERT INTO FamilyRoom... " />
+            <marker date="1492402518205" expanded="true" signature="22061:22125" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="24136:24175" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="24405:24515" ph="INSERT INTO Items... " />
+            <marker date="1492402518205" expanded="true" signature="25325:25369" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="25682:25795" ph="SELECT I.uni... Items" />
+            <marker date="1492402518205" expanded="true" signature="26078:26117" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="26178:26235" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="26583:26620" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="26705:26814" ph="SELECT itemi... Items" />
+            <marker date="1492402518205" expanded="true" signature="27184:27225" ph="SELECT itemt... Itemtype" />
+            <marker date="1492402518205" expanded="true" signature="27480:28017" ph="SELECT ir.it... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="28106:28502" ph="SELECT ir.re... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="30237:30407" ph="UPDATE SoupK... " />
+            <marker date="1492402518205" expanded="true" signature="30614:30727" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="31182:31226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="31354:32049" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="32497:32881" ph="SELECT SoupK... Service" />
+            <marker date="1492402518205" expanded="true" signature="33785:34147" ph="UPDATE Hours... " />
+            <marker date="1492402518205" expanded="true" signature="34760:34891" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="35373:35416" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="36536:36669" ph="UPDATE Shelt... " />
+            <marker date="1492402518205" expanded="true" signature="36779:37023" ph="UPDATE Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="37381:37504" ph="UPDATE Famil... " />
+            <marker date="1492402518205" expanded="true" signature="37617:37731" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="38182:38226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="38515:38598" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="38711:38758" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="39225:39302" ph="SELECT w.wai... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="39476:39924" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="40193:40832" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="41254:41995" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="42569:42782" ph="SELECT Waitl... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="43901:44007" ph="UPDATE FoodP... " />
+            <marker date="1492402518205" expanded="true" signature="44116:44228" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="44682:44726" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="44853:45524" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="45971:46264" ph="SELECT FoodP... Service" />
+            <marker date="1492402518205" expanded="true" signature="46686:47487" ph="SELECT DISTI... Service" />
+            <marker date="1492402518205" expanded="true" signature="47394:47431" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="47589:47674" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="47589:48017" ph="SELECT Servi... " />
+            <marker date="1492402518205" expanded="true" signature="48406:49358" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="49320:49357" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="50506:50704" ph="SELECT clien... clients" />
+            <marker date="1492402518205" expanded="true" signature="51678:51769" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="52205:52426" ph="SELECT b.des... waitlist" />
+            <marker date="1492402518205" expanded="true" signature="52774:53070" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="54136:54373" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="55191:55249" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="56070:56307" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="56722:56778" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="57934:58012" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="58072:58173" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="58639:58748" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="58895:59002" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59154:59271" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59415:59516" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59657:59734" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59874:59951" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="60088:60179" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="61072:61150" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="61214:61315" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61521:61622" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61801:62097" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="62822:63396" ph="SELECT mealp... typename" />
+            <marker date="1492402518205" expanded="true" signature="62903:63392" ph="SELECT CASE Items" />
+            <marker date="1492402518205" expanded="true" signature="63604:64101" ph="SELECT CASE Items" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/itemRequestStatusReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="88" column="36" lean-forward="false" selection-start-line="88" selection-start-column="36" selection-end-line="96" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mainmenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/itemSearchReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3645">
+          <caret line="135" column="65" lean-forward="false" selection-start-line="135" selection-start-column="65" selection-end-line="135" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ASACS_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1492402518205" expanded="true" signature="3389:4229" ph="SELECT R.req... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="4763:5310" ph="SELECT IFNUL... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="5438:5485" ph="SELECT count... Service" />
+            <marker date="1492402518205" expanded="true" signature="5702:6108" ph="Select SUM(i... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="6908:7028" ph="SELECT first... Users" />
+            <marker date="1492402518205" expanded="true" signature="7500:7539" ph="SELECT siten... Site" />
+            <marker date="1492402518205" expanded="true" signature="8057:8121" ph="SELECT * FRO... Site" />
+            <marker date="1492402518205" expanded="true" signature="9881:9962" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="10015:10102" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="13551:13628" ph="SELECT typen... ItemType" />
+            <marker date="1492402518205" expanded="true" signature="15152:15216" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="15657:15749" ph="SELECT reque... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="17486:17550" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="18244:18289" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="19230:19269" ph="INSERT INTO Service... " />
+            <marker date="1492402518205" expanded="true" signature="19374:19416" ph="SELECT MAX(S... Service" />
+            <marker date="1492402518205" expanded="true" signature="19511:19586" ph="INSERT INTO SoupKitchen... " />
+            <marker date="1492402518205" expanded="true" signature="19729:19817" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="19974:20038" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="20213:20256" ph="INSERT INTO FoodBank... " />
+            <marker date="1492402518205" expanded="true" signature="20404:20468" ph="INSERT INTO FoodPantry... " />
+            <marker date="1492402518205" expanded="true" signature="20589:20677" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="20837:20901" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="21076:21137" ph="INSERT INTO Shelter... " />
+            <marker date="1492402518205" expanded="true" signature="21258:21346" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="21506:21643" ph="INSERT INTO Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="21882:21942" ph="INSERT INTO FamilyRoom... " />
+            <marker date="1492402518205" expanded="true" signature="22061:22125" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="24136:24175" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="24405:24515" ph="INSERT INTO Items... " />
+            <marker date="1492402518205" expanded="true" signature="25325:25369" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="25682:25795" ph="SELECT I.uni... Items" />
+            <marker date="1492402518205" expanded="true" signature="26078:26117" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="26178:26235" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="26583:26620" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="26705:26814" ph="SELECT itemi... Items" />
+            <marker date="1492402518205" expanded="true" signature="27184:27225" ph="SELECT itemt... Itemtype" />
+            <marker date="1492402518205" expanded="true" signature="27480:28017" ph="SELECT ir.it... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="28106:28502" ph="SELECT ir.re... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="30237:30407" ph="UPDATE SoupK... " />
+            <marker date="1492402518205" expanded="true" signature="30614:30727" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="31182:31226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="31354:32049" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="32497:32881" ph="SELECT SoupK... Service" />
+            <marker date="1492402518205" expanded="true" signature="33785:34147" ph="UPDATE Hours... " />
+            <marker date="1492402518205" expanded="true" signature="34760:34891" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="35373:35416" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="36536:36669" ph="UPDATE Shelt... " />
+            <marker date="1492402518205" expanded="true" signature="36779:37023" ph="UPDATE Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="37381:37504" ph="UPDATE Famil... " />
+            <marker date="1492402518205" expanded="true" signature="37617:37731" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="38182:38226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="38515:38598" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="38711:38758" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="39225:39302" ph="SELECT w.wai... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="39476:39924" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="40193:40832" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="41254:41995" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="42569:42782" ph="SELECT Waitl... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="43901:44007" ph="UPDATE FoodP... " />
+            <marker date="1492402518205" expanded="true" signature="44116:44228" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="44682:44726" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="44853:45524" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="45971:46264" ph="SELECT FoodP... Service" />
+            <marker date="1492402518205" expanded="true" signature="46686:47487" ph="SELECT DISTI... Service" />
+            <marker date="1492402518205" expanded="true" signature="47394:47431" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="47589:47674" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="47589:48017" ph="SELECT Servi... " />
+            <marker date="1492402518205" expanded="true" signature="48406:49358" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="49320:49357" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="50506:50704" ph="SELECT clien... clients" />
+            <marker date="1492402518205" expanded="true" signature="51678:51769" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="52205:52426" ph="SELECT b.des... waitlist" />
+            <marker date="1492402518205" expanded="true" signature="52774:53070" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="54136:54373" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="55191:55249" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="56070:56307" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="56722:56778" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="57934:58012" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="58072:58173" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="58639:58748" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="58895:59002" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59154:59271" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59415:59516" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59657:59734" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59874:59951" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="60088:60179" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="61072:61150" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="61214:61315" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61521:61622" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61801:62097" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="62822:63396" ph="SELECT mealp... typename" />
+            <marker date="1492402518205" expanded="true" signature="62903:63392" ph="SELECT CASE Items" />
+            <marker date="1492402518205" expanded="true" signature="63604:64101" ph="SELECT CASE Items" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mainmenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/foodBank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/itemSearchReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="189" column="40" lean-forward="true" selection-start-line="189" selection-start-column="40" selection-end-line="189" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ASACS_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1492402518205" expanded="true" signature="3389:4229" ph="SELECT R.req... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="4763:5310" ph="SELECT IFNUL... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="5438:5485" ph="SELECT count... Service" />
+            <marker date="1492402518205" expanded="true" signature="5702:6108" ph="Select SUM(i... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="6908:7028" ph="SELECT first... Users" />
+            <marker date="1492402518205" expanded="true" signature="7500:7539" ph="SELECT siten... Site" />
+            <marker date="1492402518205" expanded="true" signature="8057:8121" ph="SELECT * FRO... Site" />
+            <marker date="1492402518205" expanded="true" signature="9881:9962" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="10015:10102" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="13551:13628" ph="SELECT typen... ItemType" />
+            <marker date="1492402518205" expanded="true" signature="15152:15216" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="15657:15749" ph="SELECT reque... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="17486:17550" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="18244:18289" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="19230:19269" ph="INSERT INTO Service... " />
+            <marker date="1492402518205" expanded="true" signature="19374:19416" ph="SELECT MAX(S... Service" />
+            <marker date="1492402518205" expanded="true" signature="19511:19586" ph="INSERT INTO SoupKitchen... " />
+            <marker date="1492402518205" expanded="true" signature="19729:19817" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="19974:20038" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="20213:20256" ph="INSERT INTO FoodBank... " />
+            <marker date="1492402518205" expanded="true" signature="20404:20468" ph="INSERT INTO FoodPantry... " />
+            <marker date="1492402518205" expanded="true" signature="20589:20677" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="20837:20901" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="21076:21137" ph="INSERT INTO Shelter... " />
+            <marker date="1492402518205" expanded="true" signature="21258:21346" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="21506:21643" ph="INSERT INTO Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="21882:21942" ph="INSERT INTO FamilyRoom... " />
+            <marker date="1492402518205" expanded="true" signature="22061:22125" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="24136:24175" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="24405:24515" ph="INSERT INTO Items... " />
+            <marker date="1492402518205" expanded="true" signature="25325:25369" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="25682:25795" ph="SELECT I.uni... Items" />
+            <marker date="1492402518205" expanded="true" signature="26078:26117" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="26178:26235" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="26583:26620" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="26705:26814" ph="SELECT itemi... Items" />
+            <marker date="1492402518205" expanded="true" signature="27184:27225" ph="SELECT itemt... Itemtype" />
+            <marker date="1492402518205" expanded="true" signature="27480:28017" ph="SELECT ir.it... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="28106:28502" ph="SELECT ir.re... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="30237:30407" ph="UPDATE SoupK... " />
+            <marker date="1492402518205" expanded="true" signature="30614:30727" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="31182:31226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="31354:32049" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="32497:32881" ph="SELECT SoupK... Service" />
+            <marker date="1492402518205" expanded="true" signature="33785:34147" ph="UPDATE Hours... " />
+            <marker date="1492402518205" expanded="true" signature="34760:34891" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="35373:35416" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="36536:36669" ph="UPDATE Shelt... " />
+            <marker date="1492402518205" expanded="true" signature="36779:37023" ph="UPDATE Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="37381:37504" ph="UPDATE Famil... " />
+            <marker date="1492402518205" expanded="true" signature="37617:37731" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="38182:38226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="38515:38598" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="38711:38758" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="39225:39302" ph="SELECT w.wai... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="39476:39924" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="40193:40832" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="41254:41995" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="42569:42782" ph="SELECT Waitl... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="43901:44007" ph="UPDATE FoodP... " />
+            <marker date="1492402518205" expanded="true" signature="44116:44228" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="44682:44726" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="44853:45524" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="45971:46264" ph="SELECT FoodP... Service" />
+            <marker date="1492402518205" expanded="true" signature="46686:47487" ph="SELECT DISTI... Service" />
+            <marker date="1492402518205" expanded="true" signature="47394:47431" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="47589:47674" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="47589:48017" ph="SELECT Servi... " />
+            <marker date="1492402518205" expanded="true" signature="48406:49358" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="49320:49357" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="50506:50704" ph="SELECT clien... clients" />
+            <marker date="1492402518205" expanded="true" signature="51678:51769" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="52205:52426" ph="SELECT b.des... waitlist" />
+            <marker date="1492402518205" expanded="true" signature="52774:53070" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="54136:54373" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="55191:55249" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="56070:56307" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="56722:56778" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="57934:58012" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="58072:58173" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="58639:58748" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="58895:59002" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59154:59271" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59415:59516" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59657:59734" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59874:59951" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="60088:60179" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="61072:61150" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="61214:61315" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61521:61622" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61801:62097" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="62822:63396" ph="SELECT mealp... typename" />
+            <marker date="1492402518205" expanded="true" signature="62903:63392" ph="SELECT CASE Items" />
+            <marker date="1492402518205" expanded="true" signature="63604:64101" ph="SELECT CASE Items" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="103" lean-forward="true" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mainmenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/itemSearchReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="70" lean-forward="false" selection-start-line="123" selection-start-column="70" selection-end-line="123" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ASACS_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1492402518205" expanded="true" signature="3389:4229" ph="SELECT R.req... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="4763:5310" ph="SELECT IFNUL... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="5438:5485" ph="SELECT count... Service" />
+            <marker date="1492402518205" expanded="true" signature="5702:6108" ph="Select SUM(i... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="6908:7028" ph="SELECT first... Users" />
+            <marker date="1492402518205" expanded="true" signature="7500:7539" ph="SELECT siten... Site" />
+            <marker date="1492402518205" expanded="true" signature="8057:8121" ph="SELECT * FRO... Site" />
+            <marker date="1492402518205" expanded="true" signature="9881:9962" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="10015:10102" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="13551:13628" ph="SELECT typen... ItemType" />
+            <marker date="1492402518205" expanded="true" signature="15152:15216" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="15657:15749" ph="SELECT reque... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="17486:17550" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="18244:18289" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="19230:19269" ph="INSERT INTO Service... " />
+            <marker date="1492402518205" expanded="true" signature="19374:19416" ph="SELECT MAX(S... Service" />
+            <marker date="1492402518205" expanded="true" signature="19511:19586" ph="INSERT INTO SoupKitchen... " />
+            <marker date="1492402518205" expanded="true" signature="19729:19817" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="19974:20038" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="20213:20256" ph="INSERT INTO FoodBank... " />
+            <marker date="1492402518205" expanded="true" signature="20404:20468" ph="INSERT INTO FoodPantry... " />
+            <marker date="1492402518205" expanded="true" signature="20589:20677" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="20837:20901" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="21076:21137" ph="INSERT INTO Shelter... " />
+            <marker date="1492402518205" expanded="true" signature="21258:21346" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="21506:21643" ph="INSERT INTO Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="21882:21942" ph="INSERT INTO FamilyRoom... " />
+            <marker date="1492402518205" expanded="true" signature="22061:22125" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="24136:24175" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="24405:24515" ph="INSERT INTO Items... " />
+            <marker date="1492402518205" expanded="true" signature="25325:25369" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="25682:25795" ph="SELECT I.uni... Items" />
+            <marker date="1492402518205" expanded="true" signature="26078:26117" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="26178:26235" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="26583:26620" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="26705:26814" ph="SELECT itemi... Items" />
+            <marker date="1492402518205" expanded="true" signature="27184:27225" ph="SELECT itemt... Itemtype" />
+            <marker date="1492402518205" expanded="true" signature="27480:28017" ph="SELECT ir.it... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="28106:28502" ph="SELECT ir.re... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="30237:30407" ph="UPDATE SoupK... " />
+            <marker date="1492402518205" expanded="true" signature="30614:30727" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="31182:31226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="31354:32049" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="32497:32881" ph="SELECT SoupK... Service" />
+            <marker date="1492402518205" expanded="true" signature="33785:34147" ph="UPDATE Hours... " />
+            <marker date="1492402518205" expanded="true" signature="34760:34891" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="35373:35416" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="36536:36669" ph="UPDATE Shelt... " />
+            <marker date="1492402518205" expanded="true" signature="36779:37023" ph="UPDATE Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="37381:37504" ph="UPDATE Famil... " />
+            <marker date="1492402518205" expanded="true" signature="37617:37731" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="38182:38226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="38515:38598" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="38711:38758" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="39225:39302" ph="SELECT w.wai... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="39476:39924" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="40193:40832" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="41254:41995" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="42569:42782" ph="SELECT Waitl... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="43901:44007" ph="UPDATE FoodP... " />
+            <marker date="1492402518205" expanded="true" signature="44116:44228" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="44682:44726" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="44853:45524" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="45971:46264" ph="SELECT FoodP... Service" />
+            <marker date="1492402518205" expanded="true" signature="46686:47487" ph="SELECT DISTI... Service" />
+            <marker date="1492402518205" expanded="true" signature="47394:47431" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="47589:47674" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="47589:48017" ph="SELECT Servi... " />
+            <marker date="1492402518205" expanded="true" signature="48406:49358" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="49320:49357" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="50506:50704" ph="SELECT clien... clients" />
+            <marker date="1492402518205" expanded="true" signature="51678:51769" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="52205:52426" ph="SELECT b.des... waitlist" />
+            <marker date="1492402518205" expanded="true" signature="52774:53070" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="54136:54373" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="55191:55249" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="56070:56307" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="56722:56778" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="57934:58012" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="58072:58173" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="58639:58748" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="58895:59002" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59154:59271" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59415:59516" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59657:59734" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59874:59951" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="60088:60179" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="61072:61150" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="61214:61315" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61521:61622" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61801:62097" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="62822:63396" ph="SELECT mealp... typename" />
+            <marker date="1492402518205" expanded="true" signature="62903:63392" ph="SELECT CASE Items" />
+            <marker date="1492402518205" expanded="true" signature="63604:64101" ph="SELECT CASE Items" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mainmenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="55" lean-forward="true" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/itemSearchReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="143" column="116" lean-forward="false" selection-start-line="143" selection-start-column="116" selection-end-line="143" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ASACS_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1492402518205" expanded="true" signature="3389:4229" ph="SELECT R.req... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="4763:5310" ph="SELECT IFNUL... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="5438:5485" ph="SELECT count... Service" />
+            <marker date="1492402518205" expanded="true" signature="5702:6108" ph="Select SUM(i... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="6908:7028" ph="SELECT first... Users" />
+            <marker date="1492402518205" expanded="true" signature="7500:7539" ph="SELECT siten... Site" />
+            <marker date="1492402518205" expanded="true" signature="8057:8121" ph="SELECT * FRO... Site" />
+            <marker date="1492402518205" expanded="true" signature="9881:9962" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="10015:10102" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="13551:13628" ph="SELECT typen... ItemType" />
+            <marker date="1492402518205" expanded="true" signature="15152:15216" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="15657:15749" ph="SELECT reque... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="17486:17550" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="18244:18289" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="19230:19269" ph="INSERT INTO Service... " />
+            <marker date="1492402518205" expanded="true" signature="19374:19416" ph="SELECT MAX(S... Service" />
+            <marker date="1492402518205" expanded="true" signature="19511:19586" ph="INSERT INTO SoupKitchen... " />
+            <marker date="1492402518205" expanded="true" signature="19729:19817" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="19974:20038" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="20213:20256" ph="INSERT INTO FoodBank... " />
+            <marker date="1492402518205" expanded="true" signature="20404:20468" ph="INSERT INTO FoodPantry... " />
+            <marker date="1492402518205" expanded="true" signature="20589:20677" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="20837:20901" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="21076:21137" ph="INSERT INTO Shelter... " />
+            <marker date="1492402518205" expanded="true" signature="21258:21346" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="21506:21643" ph="INSERT INTO Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="21882:21942" ph="INSERT INTO FamilyRoom... " />
+            <marker date="1492402518205" expanded="true" signature="22061:22125" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="24136:24175" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="24405:24515" ph="INSERT INTO Items... " />
+            <marker date="1492402518205" expanded="true" signature="25325:25369" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="25682:25795" ph="SELECT I.uni... Items" />
+            <marker date="1492402518205" expanded="true" signature="26078:26117" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="26178:26235" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="26583:26620" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="26705:26814" ph="SELECT itemi... Items" />
+            <marker date="1492402518205" expanded="true" signature="27184:27225" ph="SELECT itemt... Itemtype" />
+            <marker date="1492402518205" expanded="true" signature="27480:28017" ph="SELECT ir.it... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="28106:28502" ph="SELECT ir.re... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="30237:30407" ph="UPDATE SoupK... " />
+            <marker date="1492402518205" expanded="true" signature="30614:30727" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="31182:31226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="31354:32049" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="32497:32881" ph="SELECT SoupK... Service" />
+            <marker date="1492402518205" expanded="true" signature="33785:34147" ph="UPDATE Hours... " />
+            <marker date="1492402518205" expanded="true" signature="34760:34891" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="35373:35416" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="36536:36669" ph="UPDATE Shelt... " />
+            <marker date="1492402518205" expanded="true" signature="36779:37023" ph="UPDATE Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="37381:37504" ph="UPDATE Famil... " />
+            <marker date="1492402518205" expanded="true" signature="37617:37731" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="38182:38226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="38515:38598" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="38711:38758" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="39225:39302" ph="SELECT w.wai... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="39476:39924" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="40193:40832" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="41254:41995" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="42569:42782" ph="SELECT Waitl... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="43901:44007" ph="UPDATE FoodP... " />
+            <marker date="1492402518205" expanded="true" signature="44116:44228" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="44682:44726" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="44853:45524" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="45971:46264" ph="SELECT FoodP... Service" />
+            <marker date="1492402518205" expanded="true" signature="46686:47487" ph="SELECT DISTI... Service" />
+            <marker date="1492402518205" expanded="true" signature="47394:47431" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="47589:47674" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="47589:48017" ph="SELECT Servi... " />
+            <marker date="1492402518205" expanded="true" signature="48406:49358" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="49320:49357" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="50506:50704" ph="SELECT clien... clients" />
+            <marker date="1492402518205" expanded="true" signature="51678:51769" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="52205:52426" ph="SELECT b.des... waitlist" />
+            <marker date="1492402518205" expanded="true" signature="52774:53070" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="54136:54373" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="55191:55249" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="56070:56307" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="56722:56778" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="57934:58012" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="58072:58173" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="58639:58748" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="58895:59002" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59154:59271" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59415:59516" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59657:59734" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59874:59951" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="60088:60179" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="61072:61150" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="61214:61315" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61521:61622" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61801:62097" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="62822:63396" ph="SELECT mealp... typename" />
+            <marker date="1492402518205" expanded="true" signature="62903:63392" ph="SELECT CASE Items" />
+            <marker date="1492402518205" expanded="true" signature="63604:64101" ph="SELECT CASE Items" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="75" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mainmenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="55" lean-forward="true" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/itemSearchReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3196">
+          <caret line="188" column="27" lean-forward="false" selection-start-line="188" selection-start-column="27" selection-end-line="188" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ASACS_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1492402518205" expanded="true" signature="3389:4229" ph="SELECT R.req... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="4763:5310" ph="SELECT IFNUL... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="5438:5485" ph="SELECT count... Service" />
+            <marker date="1492402518205" expanded="true" signature="5702:6108" ph="Select SUM(i... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="6908:7028" ph="SELECT first... Users" />
+            <marker date="1492402518205" expanded="true" signature="7500:7539" ph="SELECT siten... Site" />
+            <marker date="1492402518205" expanded="true" signature="8057:8121" ph="SELECT * FRO... Site" />
+            <marker date="1492402518205" expanded="true" signature="9881:9962" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="10015:10102" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="13551:13628" ph="SELECT typen... ItemType" />
+            <marker date="1492402518205" expanded="true" signature="15152:15216" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="15657:15749" ph="SELECT reque... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="17486:17550" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="18244:18289" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="19230:19269" ph="INSERT INTO Service... " />
+            <marker date="1492402518205" expanded="true" signature="19374:19416" ph="SELECT MAX(S... Service" />
+            <marker date="1492402518205" expanded="true" signature="19511:19586" ph="INSERT INTO SoupKitchen... " />
+            <marker date="1492402518205" expanded="true" signature="19729:19817" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="19974:20038" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="20213:20256" ph="INSERT INTO FoodBank... " />
+            <marker date="1492402518205" expanded="true" signature="20404:20468" ph="INSERT INTO FoodPantry... " />
+            <marker date="1492402518205" expanded="true" signature="20589:20677" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="20837:20901" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="21076:21137" ph="INSERT INTO Shelter... " />
+            <marker date="1492402518205" expanded="true" signature="21258:21346" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="21506:21643" ph="INSERT INTO Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="21882:21942" ph="INSERT INTO FamilyRoom... " />
+            <marker date="1492402518205" expanded="true" signature="22061:22125" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="24136:24175" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="24405:24515" ph="INSERT INTO Items... " />
+            <marker date="1492402518205" expanded="true" signature="25325:25369" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="25682:25795" ph="SELECT I.uni... Items" />
+            <marker date="1492402518205" expanded="true" signature="26078:26117" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="26178:26235" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="26583:26620" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="26705:26814" ph="SELECT itemi... Items" />
+            <marker date="1492402518205" expanded="true" signature="27184:27225" ph="SELECT itemt... Itemtype" />
+            <marker date="1492402518205" expanded="true" signature="27480:28017" ph="SELECT ir.it... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="28106:28502" ph="SELECT ir.re... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="30237:30407" ph="UPDATE SoupK... " />
+            <marker date="1492402518205" expanded="true" signature="30614:30727" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="31182:31226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="31354:32049" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="32497:32881" ph="SELECT SoupK... Service" />
+            <marker date="1492402518205" expanded="true" signature="33785:34147" ph="UPDATE Hours... " />
+            <marker date="1492402518205" expanded="true" signature="34760:34891" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="35373:35416" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="36536:36669" ph="UPDATE Shelt... " />
+            <marker date="1492402518205" expanded="true" signature="36779:37023" ph="UPDATE Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="37381:37504" ph="UPDATE Famil... " />
+            <marker date="1492402518205" expanded="true" signature="37617:37731" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="38182:38226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="38515:38598" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="38711:38758" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="39225:39302" ph="SELECT w.wai... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="39476:39924" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="40193:40832" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="41254:41995" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="42569:42782" ph="SELECT Waitl... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="43901:44007" ph="UPDATE FoodP... " />
+            <marker date="1492402518205" expanded="true" signature="44116:44228" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="44682:44726" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="44853:45524" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="45971:46264" ph="SELECT FoodP... Service" />
+            <marker date="1492402518205" expanded="true" signature="46686:47487" ph="SELECT DISTI... Service" />
+            <marker date="1492402518205" expanded="true" signature="47394:47431" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="47589:47674" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="47589:48017" ph="SELECT Servi... " />
+            <marker date="1492402518205" expanded="true" signature="48406:49358" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="49320:49357" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="50506:50704" ph="SELECT clien... clients" />
+            <marker date="1492402518205" expanded="true" signature="51678:51769" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="52205:52426" ph="SELECT b.des... waitlist" />
+            <marker date="1492402518205" expanded="true" signature="52774:53070" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="54136:54373" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="55191:55249" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="56070:56307" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="56722:56778" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="57934:58012" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="58072:58173" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="58639:58748" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="58895:59002" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59154:59271" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59415:59516" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59657:59734" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59874:59951" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="60088:60179" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="61072:61150" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="61214:61315" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61521:61622" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61801:62097" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="62822:63396" ph="SELECT mealp... typename" />
+            <marker date="1492402518205" expanded="true" signature="62903:63392" ph="SELECT CASE Items" />
+            <marker date="1492402518205" expanded="true" signature="63604:64101" ph="SELECT CASE Items" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="75" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mainmenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="55" lean-forward="true" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/itemSearchReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2958">
+          <caret line="174" column="20" lean-forward="true" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ASACS_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1492402518205" expanded="true" signature="3389:4229" ph="SELECT R.req... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="4763:5310" ph="SELECT IFNUL... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="5438:5485" ph="SELECT count... Service" />
+            <marker date="1492402518205" expanded="true" signature="5702:6108" ph="Select SUM(i... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="6908:7028" ph="SELECT first... Users" />
+            <marker date="1492402518205" expanded="true" signature="7500:7539" ph="SELECT siten... Site" />
+            <marker date="1492402518205" expanded="true" signature="8057:8121" ph="SELECT * FRO... Site" />
+            <marker date="1492402518205" expanded="true" signature="9881:9962" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="10015:10102" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="13551:13628" ph="SELECT typen... ItemType" />
+            <marker date="1492402518205" expanded="true" signature="15152:15216" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="15657:15749" ph="SELECT reque... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="17486:17550" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="18244:18289" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="19230:19269" ph="INSERT INTO Service... " />
+            <marker date="1492402518205" expanded="true" signature="19374:19416" ph="SELECT MAX(S... Service" />
+            <marker date="1492402518205" expanded="true" signature="19511:19586" ph="INSERT INTO SoupKitchen... " />
+            <marker date="1492402518205" expanded="true" signature="19729:19817" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="19974:20038" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="20213:20256" ph="INSERT INTO FoodBank... " />
+            <marker date="1492402518205" expanded="true" signature="20404:20468" ph="INSERT INTO FoodPantry... " />
+            <marker date="1492402518205" expanded="true" signature="20589:20677" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="20837:20901" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="21076:21137" ph="INSERT INTO Shelter... " />
+            <marker date="1492402518205" expanded="true" signature="21258:21346" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="21506:21643" ph="INSERT INTO Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="21882:21942" ph="INSERT INTO FamilyRoom... " />
+            <marker date="1492402518205" expanded="true" signature="22061:22125" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="24136:24175" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="24405:24515" ph="INSERT INTO Items... " />
+            <marker date="1492402518205" expanded="true" signature="25325:25369" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="25682:25795" ph="SELECT I.uni... Items" />
+            <marker date="1492402518205" expanded="true" signature="26078:26117" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="26178:26235" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="26583:26620" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="26705:26814" ph="SELECT itemi... Items" />
+            <marker date="1492402518205" expanded="true" signature="27184:27225" ph="SELECT itemt... Itemtype" />
+            <marker date="1492402518205" expanded="true" signature="27480:28017" ph="SELECT ir.it... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="28106:28502" ph="SELECT ir.re... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="30237:30407" ph="UPDATE SoupK... " />
+            <marker date="1492402518205" expanded="true" signature="30614:30727" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="31182:31226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="31354:32049" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="32497:32881" ph="SELECT SoupK... Service" />
+            <marker date="1492402518205" expanded="true" signature="33785:34147" ph="UPDATE Hours... " />
+            <marker date="1492402518205" expanded="true" signature="34760:34891" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="35373:35416" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="36536:36669" ph="UPDATE Shelt... " />
+            <marker date="1492402518205" expanded="true" signature="36779:37023" ph="UPDATE Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="37381:37504" ph="UPDATE Famil... " />
+            <marker date="1492402518205" expanded="true" signature="37617:37731" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="38182:38226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="38515:38598" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="38711:38758" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="39225:39302" ph="SELECT w.wai... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="39476:39924" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="40193:40832" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="41254:41995" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="42569:42782" ph="SELECT Waitl... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="43901:44007" ph="UPDATE FoodP... " />
+            <marker date="1492402518205" expanded="true" signature="44116:44228" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="44682:44726" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="44853:45524" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="45971:46264" ph="SELECT FoodP... Service" />
+            <marker date="1492402518205" expanded="true" signature="46686:47487" ph="SELECT DISTI... Service" />
+            <marker date="1492402518205" expanded="true" signature="47394:47431" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="47589:47674" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="47589:48017" ph="SELECT Servi... " />
+            <marker date="1492402518205" expanded="true" signature="48406:49358" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="49320:49357" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="50506:50704" ph="SELECT clien... clients" />
+            <marker date="1492402518205" expanded="true" signature="51678:51769" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="52205:52426" ph="SELECT b.des... waitlist" />
+            <marker date="1492402518205" expanded="true" signature="52774:53070" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="54136:54373" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="55191:55249" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="56070:56307" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="56722:56778" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="57934:58012" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="58072:58173" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="58639:58748" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="58895:59002" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59154:59271" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59415:59516" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59657:59734" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59874:59951" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="60088:60179" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="61072:61150" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="61214:61315" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61521:61622" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61801:62097" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="62822:63396" ph="SELECT mealp... typename" />
+            <marker date="1492402518205" expanded="true" signature="62903:63392" ph="SELECT CASE Items" />
+            <marker date="1492402518205" expanded="true" signature="63604:64101" ph="SELECT CASE Items" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ASACS_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1492402518205" expanded="true" signature="3389:4229" ph="SELECT R.req... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="4763:5310" ph="SELECT IFNUL... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="5438:5485" ph="SELECT count... Service" />
+            <marker date="1492402518205" expanded="true" signature="5702:6108" ph="Select SUM(i... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="6908:7028" ph="SELECT first... Users" />
+            <marker date="1492402518205" expanded="true" signature="7500:7539" ph="SELECT siten... Site" />
+            <marker date="1492402518205" expanded="true" signature="8057:8121" ph="SELECT * FRO... Site" />
+            <marker date="1492402518205" expanded="true" signature="9881:9962" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="10015:10102" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="13551:13628" ph="SELECT typen... ItemType" />
+            <marker date="1492402518205" expanded="true" signature="15152:15216" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="15657:15749" ph="SELECT reque... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="17486:17550" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="18244:18289" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="19230:19269" ph="INSERT INTO Service... " />
+            <marker date="1492402518205" expanded="true" signature="19374:19416" ph="SELECT MAX(S... Service" />
+            <marker date="1492402518205" expanded="true" signature="19511:19586" ph="INSERT INTO SoupKitchen... " />
+            <marker date="1492402518205" expanded="true" signature="19729:19817" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="19974:20038" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="20213:20256" ph="INSERT INTO FoodBank... " />
+            <marker date="1492402518205" expanded="true" signature="20404:20468" ph="INSERT INTO FoodPantry... " />
+            <marker date="1492402518205" expanded="true" signature="20589:20677" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="20837:20901" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="21076:21137" ph="INSERT INTO Shelter... " />
+            <marker date="1492402518205" expanded="true" signature="21258:21346" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="21506:21643" ph="INSERT INTO Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="21882:21942" ph="INSERT INTO FamilyRoom... " />
+            <marker date="1492402518205" expanded="true" signature="22061:22125" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="24136:24175" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="24405:24515" ph="INSERT INTO Items... " />
+            <marker date="1492402518205" expanded="true" signature="25325:25369" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="25682:25795" ph="SELECT I.uni... Items" />
+            <marker date="1492402518205" expanded="true" signature="26078:26117" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="26178:26235" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="26583:26620" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="26705:26814" ph="SELECT itemi... Items" />
+            <marker date="1492402518205" expanded="true" signature="27184:27225" ph="SELECT itemt... Itemtype" />
+            <marker date="1492402518205" expanded="true" signature="27480:28017" ph="SELECT ir.it... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="28106:28502" ph="SELECT ir.re... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="30237:30407" ph="UPDATE SoupK... " />
+            <marker date="1492402518205" expanded="true" signature="30614:30727" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="31182:31226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="31354:32049" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="32497:32881" ph="SELECT SoupK... Service" />
+            <marker date="1492402518205" expanded="true" signature="33785:34147" ph="UPDATE Hours... " />
+            <marker date="1492402518205" expanded="true" signature="34760:34891" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="35373:35416" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="36536:36669" ph="UPDATE Shelt... " />
+            <marker date="1492402518205" expanded="true" signature="36779:37023" ph="UPDATE Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="37381:37504" ph="UPDATE Famil... " />
+            <marker date="1492402518205" expanded="true" signature="37617:37731" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="38182:38226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="38515:38598" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="38711:38758" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="39225:39302" ph="SELECT w.wai... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="39476:39924" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="40193:40832" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="41254:41995" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="42569:42782" ph="SELECT Waitl... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="43901:44007" ph="UPDATE FoodP... " />
+            <marker date="1492402518205" expanded="true" signature="44116:44228" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="44682:44726" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="44853:45524" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="45971:46264" ph="SELECT FoodP... Service" />
+            <marker date="1492402518205" expanded="true" signature="46686:47487" ph="SELECT DISTI... Service" />
+            <marker date="1492402518205" expanded="true" signature="47394:47431" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="47589:47674" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="47589:48017" ph="SELECT Servi... " />
+            <marker date="1492402518205" expanded="true" signature="48406:49358" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="49320:49357" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="50506:50704" ph="SELECT clien... clients" />
+            <marker date="1492402518205" expanded="true" signature="51678:51769" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="52205:52426" ph="SELECT b.des... waitlist" />
+            <marker date="1492402518205" expanded="true" signature="52774:53070" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="54136:54373" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="55191:55249" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="56070:56307" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="56722:56778" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="57934:58012" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="58072:58173" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="58639:58748" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="58895:59002" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59154:59271" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59415:59516" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59657:59734" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59874:59951" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="60088:60179" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="61072:61150" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="61214:61315" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61521:61622" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61801:62097" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="62822:63396" ph="SELECT mealp... typename" />
+            <marker date="1492402518205" expanded="true" signature="62903:63392" ph="SELECT CASE Items" />
+            <marker date="1492402518205" expanded="true" signature="63604:64101" ph="SELECT CASE Items" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ASACS_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1492402518205" expanded="true" signature="3389:4229" ph="SELECT R.req... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="4763:5310" ph="SELECT IFNUL... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="5438:5485" ph="SELECT count... Service" />
+            <marker date="1492402518205" expanded="true" signature="5702:6108" ph="Select SUM(i... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="6908:7028" ph="SELECT first... Users" />
+            <marker date="1492402518205" expanded="true" signature="7500:7539" ph="SELECT siten... Site" />
+            <marker date="1492402518205" expanded="true" signature="8057:8121" ph="SELECT * FRO... Site" />
+            <marker date="1492402518205" expanded="true" signature="9881:9962" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="10015:10102" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="13551:13628" ph="SELECT typen... ItemType" />
+            <marker date="1492402518205" expanded="true" signature="15152:15216" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="15657:15749" ph="SELECT reque... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="17486:17550" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="18244:18289" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="19230:19269" ph="INSERT INTO Service... " />
+            <marker date="1492402518205" expanded="true" signature="19374:19416" ph="SELECT MAX(S... Service" />
+            <marker date="1492402518205" expanded="true" signature="19511:19586" ph="INSERT INTO SoupKitchen... " />
+            <marker date="1492402518205" expanded="true" signature="19729:19817" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="19974:20038" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="20213:20256" ph="INSERT INTO FoodBank... " />
+            <marker date="1492402518205" expanded="true" signature="20404:20468" ph="INSERT INTO FoodPantry... " />
+            <marker date="1492402518205" expanded="true" signature="20589:20677" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="20837:20901" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="21076:21137" ph="INSERT INTO Shelter... " />
+            <marker date="1492402518205" expanded="true" signature="21258:21346" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="21506:21643" ph="INSERT INTO Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="21882:21942" ph="INSERT INTO FamilyRoom... " />
+            <marker date="1492402518205" expanded="true" signature="22061:22125" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="24136:24175" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="24405:24515" ph="INSERT INTO Items... " />
+            <marker date="1492402518205" expanded="true" signature="25325:25369" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="25682:25795" ph="SELECT I.uni... Items" />
+            <marker date="1492402518205" expanded="true" signature="26078:26117" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="26178:26235" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="26583:26620" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="26705:26814" ph="SELECT itemi... Items" />
+            <marker date="1492402518205" expanded="true" signature="27184:27225" ph="SELECT itemt... Itemtype" />
+            <marker date="1492402518205" expanded="true" signature="27480:28017" ph="SELECT ir.it... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="28106:28502" ph="SELECT ir.re... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="30237:30407" ph="UPDATE SoupK... " />
+            <marker date="1492402518205" expanded="true" signature="30614:30727" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="31182:31226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="31354:32049" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="32497:32881" ph="SELECT SoupK... Service" />
+            <marker date="1492402518205" expanded="true" signature="33785:34147" ph="UPDATE Hours... " />
+            <marker date="1492402518205" expanded="true" signature="34760:34891" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="35373:35416" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="36536:36669" ph="UPDATE Shelt... " />
+            <marker date="1492402518205" expanded="true" signature="36779:37023" ph="UPDATE Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="37381:37504" ph="UPDATE Famil... " />
+            <marker date="1492402518205" expanded="true" signature="37617:37731" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="38182:38226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="38515:38598" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="38711:38758" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="39225:39302" ph="SELECT w.wai... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="39476:39924" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="40193:40832" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="41254:41995" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="42569:42782" ph="SELECT Waitl... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="43901:44007" ph="UPDATE FoodP... " />
+            <marker date="1492402518205" expanded="true" signature="44116:44228" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="44682:44726" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="44853:45524" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="45971:46264" ph="SELECT FoodP... Service" />
+            <marker date="1492402518205" expanded="true" signature="46686:47487" ph="SELECT DISTI... Service" />
+            <marker date="1492402518205" expanded="true" signature="47394:47431" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="47589:47674" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="47589:48017" ph="SELECT Servi... " />
+            <marker date="1492402518205" expanded="true" signature="48406:49358" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="49320:49357" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="50506:50704" ph="SELECT clien... clients" />
+            <marker date="1492402518205" expanded="true" signature="51678:51769" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="52205:52426" ph="SELECT b.des... waitlist" />
+            <marker date="1492402518205" expanded="true" signature="52774:53070" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="54136:54373" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="55191:55249" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="56070:56307" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="56722:56778" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="57934:58012" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="58072:58173" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="58639:58748" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="58895:59002" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59154:59271" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59415:59516" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59657:59734" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59874:59951" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="60088:60179" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="61072:61150" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="61214:61315" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61521:61622" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61801:62097" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="62822:63396" ph="SELECT mealp... typename" />
+            <marker date="1492402518205" expanded="true" signature="62903:63392" ph="SELECT CASE Items" />
+            <marker date="1492402518205" expanded="true" signature="63604:64101" ph="SELECT CASE Items" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile.py" />
+    <entry file="file://$PROJECT_DIR$/templates/bedroomReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/clientReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/clientSearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/soupKitchen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="55" lean-forward="false" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mainmenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pymysql/err.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/foodPantry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-996">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/outstandingRequestReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="25" column="55" lean-forward="false" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/addService.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1897">
+          <caret line="210" column="48" lean-forward="false" selection-start-line="210" selection-start-column="48" selection-end-line="210" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/viewServices.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mealsAvailableReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/itemSearchReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2958">
+          <caret line="174" column="55" lean-forward="false" selection-start-line="174" selection-start-column="55" selection-end-line="174" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shelter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="259" column="6" lean-forward="true" selection-start-line="259" selection-start-column="6" selection-end-line="259" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/itemRequestStatusReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="54" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/foodBank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3468">
+          <caret line="204" column="62" lean-forward="false" selection-start-line="204" selection-start-column="62" selection-end-line="204" selection-end-column="62" />
+          <folding>
+            <marker date="1492401104956" expanded="true" signature="11831:11837" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="306" column="0" lean-forward="false" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ASACS_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1492402518205" expanded="true" signature="3389:4229" ph="SELECT R.req... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="4763:5310" ph="SELECT IFNUL... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="5438:5485" ph="SELECT count... Service" />
+            <marker date="1492402518205" expanded="true" signature="5702:6108" ph="Select SUM(i... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="6908:7028" ph="SELECT first... Users" />
+            <marker date="1492402518205" expanded="true" signature="7500:7539" ph="SELECT siten... Site" />
+            <marker date="1492402518205" expanded="true" signature="8057:8121" ph="SELECT * FRO... Site" />
+            <marker date="1492402518205" expanded="true" signature="9881:9962" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="10015:10102" ph="SELECT * FRO... Items" />
+            <marker date="1492402518205" expanded="true" signature="13551:13628" ph="SELECT typen... ItemType" />
+            <marker date="1492402518205" expanded="true" signature="15152:15216" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="15657:15749" ph="SELECT reque... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="17486:17550" ph="SELECT servi... Items" />
+            <marker date="1492402518205" expanded="true" signature="18244:18289" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="19230:19269" ph="INSERT INTO Service... " />
+            <marker date="1492402518205" expanded="true" signature="19374:19416" ph="SELECT MAX(S... Service" />
+            <marker date="1492402518205" expanded="true" signature="19511:19586" ph="INSERT INTO SoupKitchen... " />
+            <marker date="1492402518205" expanded="true" signature="19729:19817" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="19974:20038" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="20213:20256" ph="INSERT INTO FoodBank... " />
+            <marker date="1492402518205" expanded="true" signature="20404:20468" ph="INSERT INTO FoodPantry... " />
+            <marker date="1492402518205" expanded="true" signature="20589:20677" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="20837:20901" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="21076:21137" ph="INSERT INTO Shelter... " />
+            <marker date="1492402518205" expanded="true" signature="21258:21346" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="21506:21643" ph="INSERT INTO Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="21882:21942" ph="INSERT INTO FamilyRoom... " />
+            <marker date="1492402518205" expanded="true" signature="22061:22125" ph="INSERT INTO Conditions... " />
+            <marker date="1492402518205" expanded="true" signature="24136:24175" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="24405:24515" ph="INSERT INTO Items... " />
+            <marker date="1492402518205" expanded="true" signature="25325:25369" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="25682:25795" ph="SELECT I.uni... Items" />
+            <marker date="1492402518205" expanded="true" signature="26078:26117" ph="UPDATE Items... " />
+            <marker date="1492402518205" expanded="true" signature="26178:26235" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="26583:26620" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="26705:26814" ph="SELECT itemi... Items" />
+            <marker date="1492402518205" expanded="true" signature="27184:27225" ph="SELECT itemt... Itemtype" />
+            <marker date="1492402518205" expanded="true" signature="27480:28017" ph="SELECT ir.it... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="28106:28502" ph="SELECT ir.re... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="30237:30407" ph="UPDATE SoupK... " />
+            <marker date="1492402518205" expanded="true" signature="30614:30727" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="31182:31226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="31354:32049" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="32497:32881" ph="SELECT SoupK... Service" />
+            <marker date="1492402518205" expanded="true" signature="33785:34147" ph="UPDATE Hours... " />
+            <marker date="1492402518205" expanded="true" signature="34760:34891" ph="INSERT INTO HoursOfOperation... " />
+            <marker date="1492402518205" expanded="true" signature="35373:35416" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="36536:36669" ph="UPDATE Shelt... " />
+            <marker date="1492402518205" expanded="true" signature="36779:37023" ph="UPDATE Bunks... " />
+            <marker date="1492402518205" expanded="true" signature="37381:37504" ph="UPDATE Famil... " />
+            <marker date="1492402518205" expanded="true" signature="37617:37731" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="38182:38226" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="38515:38598" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="38711:38758" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="39225:39302" ph="SELECT w.wai... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="39476:39924" ph="UPDATE Waitl... " />
+            <marker date="1492402518205" expanded="true" signature="40193:40832" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="41254:41995" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="42569:42782" ph="SELECT Waitl... Waitlist" />
+            <marker date="1492402518205" expanded="true" signature="43901:44007" ph="UPDATE FoodP... " />
+            <marker date="1492402518205" expanded="true" signature="44116:44228" ph="UPDATE Condi... " />
+            <marker date="1492402518205" expanded="true" signature="44682:44726" ph="DELETE FROM " />
+            <marker date="1492402518205" expanded="true" signature="44853:45524" ph="SELECT Hours... Service" />
+            <marker date="1492402518205" expanded="true" signature="45971:46264" ph="SELECT FoodP... Service" />
+            <marker date="1492402518205" expanded="true" signature="46686:47487" ph="SELECT DISTI... Service" />
+            <marker date="1492402518205" expanded="true" signature="47394:47431" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="47589:47674" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="47589:48017" ph="SELECT Servi... " />
+            <marker date="1492402518205" expanded="true" signature="48406:49358" ph="SELECT Servi... Service" />
+            <marker date="1492402518205" expanded="true" signature="49320:49357" ph="SELECT Shelt... Shelter" />
+            <marker date="1492402518205" expanded="true" signature="50506:50704" ph="SELECT clien... clients" />
+            <marker date="1492402518205" expanded="true" signature="51678:51769" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="52205:52426" ph="SELECT b.des... waitlist" />
+            <marker date="1492402518205" expanded="true" signature="52774:53070" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="54136:54373" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="55191:55249" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="56070:56307" ph="SELECT R.uni... ItemRequests" />
+            <marker date="1492402518205" expanded="true" signature="56722:56778" ph="UPDATE ItemR... " />
+            <marker date="1492402518205" expanded="true" signature="57934:58012" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="58072:58173" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="58639:58748" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="58895:59002" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59154:59271" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59415:59516" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59657:59734" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="59874:59951" ph="UPDATE cs640... " />
+            <marker date="1492402518205" expanded="true" signature="60088:60179" ph="SELECT * FRO... clients" />
+            <marker date="1492402518205" expanded="true" signature="61072:61150" ph="SELECT sitei... users" />
+            <marker date="1492402518205" expanded="true" signature="61214:61315" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61521:61622" ph="INSERT INTO cs6400_sp17_team092.clientlog... " />
+            <marker date="1492402518205" expanded="true" signature="61801:62097" ph="SELECT a.cli... clientlog" />
+            <marker date="1492402518205" expanded="true" signature="62822:63396" ph="SELECT mealp... typename" />
+            <marker date="1492402518205" expanded="true" signature="62903:63392" ph="SELECT CASE Items" />
+            <marker date="1492402518205" expanded="true" signature="63604:64101" ph="SELECT CASE Items" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

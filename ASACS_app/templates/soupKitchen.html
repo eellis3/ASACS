@@ -1,0 +1,237 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"
+          type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet"
+          type="text/css">
+</head>
+<body>
+<div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><span>ASACS App</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active">
+                    <a href="mainmenu">Main Menu</a>
+                </li>
+                <li>
+                    <a href="logout">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Soup Kitchen</h1>
+            </div>
+        </div>
+        <div class="row">
+            <a class="btn btn-primary" data-toggle="modal" data-target="#deleteModal">Delete Soup Kitchen</a>
+            <a class="btn btn-primary" data-toggle="modal" data-target="#updateModal">Edit Soup Kitchen</a>
+            <a class="btn btn-primary" data-toggle="modal" data-target="#updateHours">Edit Hours of Operation</a>
+        </div>
+        {% if soupKitchen %}
+        <div>
+            <label>Description: </label><span id="desc">{{ soupKitchen.description }}</span>
+            <br>
+            <label>Conditions: </label><span id="desc">{{ soupKitchen.conditions }}</span>
+            <br>
+            <label>Seats: </label><span id="desc">{{ soupKitchen.seat }}</span>
+            <br>
+            {% if resultHO %}
+            <label>&nbsp;Hours of Operation:&nbsp;</label><br>
+            {% for ho in resultHO %}
+            <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp {{ho.day}}: {{ho.open}} to {{ho.closed}}&nbsp;</span><br>
+            {% endfor %}
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Update Modal -->
+<div class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Update Soup Kitchen</h4>
+            </div>
+            <form action="/soupKitchen" method="POST">
+                <input type="hidden" name="_method" value="PUT">
+                <div class="modal-body">
+                    <label>Description: </label><input id="modalDesc" value="{{ soupKitchen.description }}"
+                                                       name="description" type="text" required></input>
+                    <label>Conditions: </label><input id="modalDesc" value="{{ soupKitchen.conditions }}"
+                                                       name="conditions" type="text" required></input>
+                    <label>Seats: </label><input id="modalSeats" value="{{ soupKitchen.seat }}" name="seats"
+                                                 type="number" min="0" max="999999" required></input><br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button class="btn btn-primary" type="submit">Save changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Delete Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Delete this Soup Kitchen</h4>
+            </div>
+
+            <form action="/soupKitchen" method="POST">
+                <input type="hidden" name="_method" value="DELETE">
+                <div class="modal-body">
+                    Are you sure you want to delete this Soup Kitchen?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button class="btn btn-danger" type="submit">Delete</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Update Hours Of Operation Modal -->
+<div class="modal fade" id="updateHours" tabindex="-1" role="dialog" aria-labelledby="updateLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Update Hours of Operation</h4>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            {% if resultHO %}
+                            {% for ho in resultHO %}
+                            <form action="/hours" method="POST" id="hoo">
+                                <input type="hidden" name="_method" value="PUT">
+                                <input type="hidden" name="returnPage" value="/soupKitchen">
+                                <input type="hidden" name="id" value="{{ho.id}}">
+                                <div class="form-group">
+                                    <div class="col-sm-2">
+                                        <label class="control-label">Day</label>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="day" value="{{ho.day}}">
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <label class="control-label">Open</label>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <input type="time" class="form-control" name="open" value="{{ho.open}}">
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <label class="control-label">Closed</label>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <input type="time" class="form-control" name="closed" value="{{ho.closed}}">
+                                    </div>
+                                </div>
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="button2" class="btn btn-primary btn-sm">
+                                        Update
+                                    </button>
+                                    <button type="button" class="btn btn-primary btn-sm"
+                                            onclick="deleteHOO({{ ho.id }})">
+                                        Delete
+                                    </button>
+                                </div>
+                            </form>
+
+
+                            {% endfor %}
+                            {% else %}
+                             <tr>
+                                 <td>No Hours of Operation to Edit</td>
+                             </tr>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <form action="/hours" method="POST">
+                                <input type="hidden" name="_method" value="POST">
+                                {% if soupKitchen %}
+                                <input type="hidden" name="serviceid" value="{{soupKitchen.serviceid}}">
+                                {% endif %}
+                                <input type="hidden" name="returnPage" value="/soupKitchen">
+                                <div class="form-group">
+                                    <div class="col-sm-2">
+                                        <label class="control-label">Day</label>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="newDay" value="">
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <label class="control-label">Open</label>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="newOpen" value="">
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <label class="control-label">Closed</label>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="newClosed" value="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="button3" class="btn btn-primary btn-sm" onclick="">
+                                        Add
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script>
+
+    function deleteHOO(hourid) {
+        $.ajax({
+            url: "/hours",
+            type: "DELETE",
+            data: {
+                data: JSON.stringify({
+                    id: hourid,
+                    returnPage: '/soupKitchen'
+                })
+            }
+        }).success(function () {
+            window.location = "/soupKitchen";
+        });
+    }
+
+</script>
+</html>

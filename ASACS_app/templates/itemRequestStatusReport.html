@@ -1,0 +1,133 @@
+<html><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="http://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+        <link href="http://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
+    </head><body>
+
+<div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><span>ASACS App</span></a>
+                </div>
+                {% if session %}<h4>{{ session.firstname }} {{ session.lastname }}: {{ session.sitename }}</h4>{% endif %}
+                <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="mainmenu">Main Menu</a>
+                        </li>
+                        <li>
+                            <a href="logout">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>My Item Request Status Report</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div class="section">
+            <div class="container">
+                <div class="row">
+					<div class="col-md-6">
+						<h3>Enter Request ID to Edit or Cancel:</h3>
+						<h5>Can't edit a request to 0 items.  Click Cancel instead</h5>
+						{% if error %}<h3><strong>Error:</strong> {{ error }}</h3>{% endif %}
+						{% if successLog %}<h3><strong>{{ successLog }}</strong></h3>{% endif %}
+                        {% with messages = get_flashed_messages() %}
+                        {% if messages %}<h3><strong>{{ messages[0] }}</strong></h3>{% endif %}
+                        {% endwith %}
+                        <form class="form-horizontal" role="form" method="post">
+                            <div class="form-group">
+                                <div class="col-sm-2"><label for="inputEmail34" class="control-label">Request ID</label>
+                                </div>
+                                <div class="col-sm-10"><input type="number" class="form-control" name="requestID" min="1"></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-2"><label for="inputEmai234" class="control-label">Units</label>
+                                </div>
+                                <div class="col-sm-10"><input type="number" class="form-control" name="units" min="1"></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" name='button' value='editButton' class="btn btn-default">Edit</button>
+                                    <button type="submit" name='button' value='cancelButton' class="btn btn-default">Cancel Item Request</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table" id="itemRequestTable">
+                            <thead>
+                                <tr>
+                                    <th>Request ID</th>
+                                    <th>Status</th>
+                                    <th>Item #</th>
+                                    <th>Name/Description</th>
+                                    <th>Exp Date</th>
+                                    <th>Units</th>
+                                    <th>Units Requested</th>
+                                    <th>Units Approved</th>
+                                    <th>Site Name</th>
+                                </tr>
+                            </thead>
+                            {% if results %}
+                            <tbody>
+                            {% for request in results %}
+                                <tr>
+                                    <td>{{request.requestID}}</td>
+                                    <td>{{request.status}}</td>
+                                    <td>{{request.itemID}}</td>
+                                    <td>{{request.nameDesc}}</td>
+                                    <td>{{request.expDate}}</td>
+                                    <td>{{request.units}}</td>
+                                    <td>{{request.unitsReq}}</td>
+                                    <td>{{request.unitsApp}}</td>
+                                    <td>{{request.siteName}}</td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        {% else %}
+                            <tbody></tbody>
+                        {% endif %}
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+</body>
+<script>
+    $(document).ready(function(){
+        var options = {
+            searching: false,
+            lengthChange: false
+        };
+        $('#itemRequestTable').DataTable(options);
+    });
+
+</script>
+</html>

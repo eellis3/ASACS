@@ -1,0 +1,226 @@
+<html><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+    </head><body>
+
+<div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse"><span
+                    class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span
+                    class="icon-bar"></span></button>
+            <a class="navbar-brand" href="#"><span>ASACS App</span></a></div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="mainmenu">Main Menu</a></li>
+                <li><a href="logout">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="section">
+    <div class="container">
+        <form role="form" method="post"><button class="btn btn-primary" id="foodBankBtn" name="button" value="foodBank" type="submit">Add Food Bank</button></form>
+        <button class="btn btn-primary" id="soupKitchenBtn" data-toggle="modal" data-target="#soupKitchenModal" onclick="setModalLabel('Soup Kitchen')">Add Soup Kitchen</button>
+        <button class="btn btn-primary" id="shelterBtn" data-toggle="modal" data-target="#shelterModal" onclick="setModalLabel('Shelter')">Add Shelter</button>
+        <button class="btn btn-primary" id="foodPantryBtn" data-toggle="modal" data-target="#foodPantryModal" onclick="setModalLabel('Food Pantry')">Add Food Pantry</button>
+
+    </div>
+</div>
+
+<!-- Add Modal -->
+<div class="modal fade" id="soupKitchenModal" tabindex="-1" role="dialog" aria-labelledby="updateLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"></h4>
+      </div>
+        <form role="form" method="post">
+      <div class="modal-body">
+        <label>Description: </label><input id="modalDesc" name="description" type="text" required></input>
+        <label id="modalSeatLabel">Seats: </label><input id="modalSeats" name="seats" type="number" min="0" required></input><br>
+          <label>Open:   </label><input id="modalOpen" name="open" type="text" required></input>
+        <label>Closed:   </label><input id="modalClosed" name="closed" type="text" required></input><br>
+        <label>Day:   </label><input id="modalDay" name="day" type="text" required></input><br>
+          <label>Conditions:   </label><input id="modalConditions" name="conditions" type="text" required></input><br>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary" name="button" value="soupKitchen">Save changes</button>
+      </div>
+        </form>
+    </div>
+  </div>
+</div>
+
+<!-- Add Food Pantry Modal -->
+<div class="modal fade" id="foodPantryModal" tabindex="-1" role="dialog" aria-labelledby="updateLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"></h4>
+      </div>
+        <form role="form" method="post">
+      <div class="modal-body">
+        <label>Description: </label><input id="modalDesc" name="description1" type="text" required></input>
+          <label>Open:   </label><input id="modalOpen" name="open1" type="text" required></input>
+        <label>Closed:   </label><input id="modalClosed" name="closed1" type="text" required></input>
+        <label>Day:   </label><input id="modalDay" name="day1" type="text" required></input>
+          <label>Conditions:   </label><input id="modalConditions" name="conditions1" type="text" required></input>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary"  name="button" value="foodPantry">Save changes</button>
+      </div>
+        </form>
+    </div>
+  </div>
+</div>
+<!-- Add Shelter Modal -->
+<div class="modal fade" id="shelterModal" tabindex="-1" role="dialog" aria-labelledby="updateLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"></h4>
+      </div>
+        <form role="form" method="post">
+      <div class="modal-body">
+        <label>Description: </label><input id="modalDesc" name="description2" type="text" required></input>
+          <label>Open:   </label><input id="modalOpen" name="open2" type="text" required></input>
+        <label>Closed:   </label><input id="modalClosed" name="closed2" type="text" required></input>
+        <label>Day:   </label><input id="modalDay" name="day2" type="text" required></input>
+        <label>Male Bunks:   </label><input id="modalMBunks" name="mBunks" type="number" required></input>
+          <label>Female Bunks:   </label><input id="modalMBunks" name="fBunks" type="number" required></input>
+          <label>Mixed Bunks:   </label><input id="modalMBunks" name="mixBunks" type="number" required></input>
+          <label>Family Rooms:   </label><input id="modalFRoom" name="familyRoom" type="number" required></input>
+          <label>Conditions:   </label><input id="modalConditions" name="conditions2" type="text" required></input>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary"  name="button" value="shelter">Save changes</button>
+      </div>
+        </form>
+    </div>
+  </div>
+</div>
+</body>
+<script>
+
+    $(document).ready(function () {
+         $("#shelterBtn").prop("disabled", {{ available.shelter }});
+         $("#foodPantryBtn").prop("disabled", {{ available.foodPantry }});
+         $("#foodBankBtn").prop("disabled", {{ available.foodBank }});
+         $("#soupKitchenBtn").prop("disabled", {{ available.soupKitchen }});
+    });
+
+    function setModalLabel (label) {
+        document.getElementById('myModalLabel').innerText = label;
+        console.log(label)
+        if (label !== "Soup Kitchen") {
+            $("#modalSeatLabel").hide();
+            $("#modalSeats").hide();
+            $("#modalSeats").removeAttr("required");
+        } else {
+            $("#modalSeatLabel").show();
+            $("#modalSeats").show();
+            $("#modalSeats").attr("required");
+        }
+    }
+    function add (service) {
+        $.ajax({
+            url: "/addService",
+            type: "POST",
+            data: {
+                data: JSON.stringify({
+                    service: service
+                })
+            }
+        }).success(function () {
+            window.location = "/viewServices";
+        });
+    }
+    function addSoupKitchen(){
+        $.ajax({
+            url: "/addService",
+            type: "POST",
+            data: {
+                data: JSON.stringify({
+                    service: 'soupkitchen',
+                    seats: $("#modalSeats").val(),
+                    description: $("#modalDesc").val(),
+                    open: $("#modalOpen").val(),
+                    closed: $("#modalClosed").val(),
+                    day: $("#modalDay").val()
+               })
+            }
+        }).success(function () {
+            window.location = "/viewServices";
+        });
+    }
+
+    function addFoodPantryService () {
+        var service = document.getElementById('myModalLabel').innerText.replace(/\s+/, "").toLowerCase();
+
+        $.ajax({
+            url: "/addService",
+            type: "POST",
+            data: {
+                data: JSON.stringify({
+                    service: service,
+                    description: $("#modalDesc2").val(),
+                    open: $("#modalOpen2").val(),
+                    closed: $("#modalClosed2").val(),
+                    day: $("#modalDay2").val()
+                })
+            }
+        }).success(function () {
+            $("#modalDesc2").val("");
+            $("#modalOpen2").val("");
+            $("#modalClosed2").val("");
+            $("#modalDay2").val("");
+        });
+    }
+
+    function addService () {
+        var service = document.getElementById('myModalLabel').innerText.replace(/\s+/, "").toLowerCase();
+
+        $.ajax({
+            url: "/addService",
+            type: "POST",
+            data: {
+                data: JSON.stringify({
+                    service: service,
+                    description: $("#modalDesc").val(),
+                    seats: $("#modalSeats").val(),
+                    open: $("#modalOpen").val(),
+                    closed: $("#modalClosed").val(),
+                    day: $("#modalDay").val(),
+                    malecount: $("#modalMale").val(),
+                    femalecount: $("#modalFemale").val(),
+                    mixcount: $("#modalMix").val(),
+                    roomsAvail: $("#modalAvail").val()
+                })
+            }
+        }).success(function () {
+            $("#modalDesc").val("");
+            $("#modalSeats").val("");
+            $("#modalOpen").val("");
+            $("#modalClosed").val("");
+            $("#modalDay").val("");
+            $("#modalMale").val("");
+            $("#modalFemale").val("");
+            $("#modalMix").val("");
+            $("#modalAvail").val("");
+        });
+    }
+</script>
+</html>

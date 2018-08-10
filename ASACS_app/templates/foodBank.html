@@ -1,0 +1,263 @@
+<html><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="http://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="http://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><span>ASACS App</span></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="mainmenu">Main Menu</a>
+                        </li>
+                        <li>
+                            <a href="logout">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Food Bank</h1>
+                        {% with messages = get_flashed_messages() %}
+                        {% if messages %}<h3><strong>{{ messages[0] }}</strong></h3>{% endif %}
+                        {% endwith %}
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#reportModal">Outstanding Request Report</button>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#addModal">Add Item</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table" id="foodBankTable">
+                            <thead>
+                                <tr>
+                                    <th>Item Id</th>
+                                    <th>Name</th>
+                                    <th>Expiration Date</th>
+                                    <th>Units</th>
+                                    <th>Storage type</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            {% if foodBank %}
+                            <tbody>
+                            {% for item in foodBank %}
+                                <tr>
+                                    <td>{{item.itemid}}</td>
+                                    <td>{{item.name}}</td>
+                                    <td>{{item.expdate}}</td>
+                                    <td>{{item.units}}</td>
+                                    <td>{{item.storagetype}}</td>
+                                    <td><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" onclick="openModal({{ item.itemid }}, {{ item.units }})">Update</button></td>
+                                    {% if item.units == 0 %}
+                                        <td><button type="button3" class="btn btn-primary btn-lg" onclick="deleteModal({{ item.itemid }})">
+                                            Delete
+                                        </button></td>
+                                    {% else %}
+                                        <td><button type="button3" style="display: none;" class="btn btn-primary btn-lg" onclick="deleteModal({{ item.itemid }})">
+                                            Delete
+                                        </button></td>
+                                    {% endif %}
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        {% else %}
+                            <tbody></tbody>
+                        {% endif %}
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add Modal -->
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Add Item</h4>
+      </div>
+    <form action="/foodBank" method="POST">
+        <input type="hidden" name="_method" value="POST">
+        <div class="modal-body">
+        <label>Name: </label><input id="itemName" name ="name" required></input>
+        <label>Units:   </label><input id="itemUnits" name="units" type="number" required min="0"></input>
+      <select id="itemStorageType" name="storageType" required>
+          <option value="Dry Good">Dry Good</option>
+          <option value="Refrigerated">Refrigerated</option>
+          <option value="Frozen">Frozen</option>
+        </select>
+        <label>Expiration Date:   </label><input id="itemExpdate" type="date" name="expdate" required></input>
+        <select id="itemTypeId" name="itemTypeId" required>
+                   {% if itemTypes %}
+                       {% for type in itemTypes %}
+                           <option value="{{ type.itemtypeid }}">{{type.typename}}</option>
+                       {% endfor %}
+                   {% endif %}
+        </select>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Add</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+
+<!-- Update Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Update Units</h4>
+      </div>
+
+        <form action="/foodBank" method="POST">
+            <input type="hidden" name="_method" value="PUT">
+            <input type="hidden" id="modalItemIdHidden" name="itemId">
+      <div class="modal-body">
+        <label>Item Id: </label><p id="modalItemId"></p>
+        <label>Units:   </label><input id="modalUnits" name="units" type="number" min="0" required></input>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button class="btn btn-primary" type="submit">Save changes</button>
+      </div>
+        </form>
+    </div>
+  </div>
+</div>
+
+   <!-- Delete Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Delete this Food Bank</h4>
+      </div>
+
+        <form action="/foodBank" method="POST">
+            <input type="hidden" name="_method" value="DELETE">
+      <div class="modal-body">
+        Are you sure you want to delete this Food Bank?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button class="btn btn-danger" type="submit">Delete</button>
+      </div>
+        </form>
+    </div>
+  </div>
+</div>
+
+    <!-- Report Modal -->
+<div class="modal fade" id="reportModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Outstanding Request Report</h4>
+      </div>
+      <div class="modal-body">
+      {% if itemsRequests %}
+          <table class="table" id="reportTable" border="0">
+              <thead>
+                  <tr>
+                      <th>Item Name</th>
+                      <th>UserName</th>
+                      <th>Item Id</th>
+                      <th>Units Requested</th>
+                      <th>Total Units</th>
+                      <th>Units Approved</th>
+                      <th></th>
+                  </tr>
+              </thead>
+              <tbody>
+              {% for item in itemsRequests %}
+                  <tr style="{{ 'color:red' if item.isShortage == 'R'  }}">
+                  <form action="/foodBank" method="POST">
+                      <input name="requestid" type="hidden" value="{{ item.requestid }}">
+                      <input type="hidden" name="_method" value="request">
+                      <td>{{item.itemName}}</td>
+                      <td>{{item.username}}</td>
+                      <td>{{item.itemid}}</td>
+                      <td>{{item.unitsrequested}}</td>
+                      <td>{{item.unitsAvailable}}</td>
+                      <td><input name="unitsapproved" type="number" min="0" max="{{ item.unitsrequested }}" required></td>
+                      <td><button class="btn btn-primary" type="submit">Update</button></td>
+                  </form>
+                  </tr>
+              {% endfor %}
+              </tbody>
+        </table>
+      {% else %}
+          <div>No Pending Requests</div>
+      {% endif %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script>
+    $(document).ready(function(){
+        var options = {
+            searching: false,
+            lengthChange: false
+        };
+        $('#foodBankTable').DataTable(options);
+        $('#reportTable').DataTable(options);
+    });
+    function openModal (itemId, units) {
+        document.getElementById('modalItemId').innerText = itemId;
+        document.getElementById('modalItemIdHidden').value = itemId;
+        document.getElementById('modalUnits').value = units;
+    }
+
+    function deleteModal(itemid){
+        $.ajax({
+            url: "/foodBank",
+            type: "DELETE",
+            data: {
+                data: JSON.stringify({
+                    id: itemid
+                })
+            }
+        }).success(function () {
+            window.location = "/foodBank";
+        });
+
+    }
+</script>
+
+</html>

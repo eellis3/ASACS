@@ -1,0 +1,254 @@
+<html><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+            <script type="text/javascript" src="http://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+        <link href="http://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
+            <script type="text/javascript" src="http://kozea.github.com/pygal.js/javascripts/svg.jquery.js"></script>
+        <script type="text/javascript" src="http://kozea.github.com/pygal.js/javascripts/pygal-tooltips.js"></script>
+    </head><body>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><span>ASACS App</span></a>
+                    {% if session %}
+                    <h4>{{ session.firstname }} {{ session.lastname }}: {{ session.sitename }}</h4>
+                    {% endif %}
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="mainmenu">Main Menu</a>
+                        </li>
+                        <li>
+                            <a href="logout">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Item Search / Report</h1>
+                        <h2> Most Requested Items </h2>
+                        {{ bar_chart.render() | safe }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 contenteditable="true">Search for Item:</h3><h5>If left blank and hit search, returns all items.</h5><form class="form-horizontal text-left" role="form" method="post">
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label class="control-label">Item ID</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="number" class="form-control" name="itemID" min="1">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label class="control-label">Name</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="nameDesc">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label class="control-label">Exp Date</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="date" class="form-control" name="expDate">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label class="control-label">Show Expired</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <select class="form-control" name="showExpired">
+                                        <option></option>
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label class="control-label">Storage&nbsp;Type</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <select class="form-control" name="storageType">
+                                        <option></option>
+                                        <option>Dry Good</option>
+                                        <option>Refrigerated</option>
+                                        <option>Frozen</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group"><div class="col-sm-2"><label for="inputEmail3" class="control-label">Food/Supply</label></div>
+                                
+                                <div class="col-sm-10">
+                                    <select class="form-control" name="foodSupply">
+                                        <option></option>
+                                        <option>Food</option>
+                                        <option>Supply</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label class="control-label" contenteditable="true">Category</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <select class="form-control" name="category">
+                                        <option></option>
+                                        <option>Personal Hygiene</option>
+                                        <option>Clothing</option>
+                                        <option>Shelter</option>
+                                        <option>Other</option>
+                                        <option>Vegetables</option>
+                                        <option>Nuts/Grains/Beans</option>
+                                        <option>Meat/Seafood</option>
+                                        <option>Dairy/Eggs</option>
+                                        <option>Sauce/Condiment/Seasoning</option>
+                                        <option>Juice/Drink</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label class="control-label" contenteditable="true">Site Name</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <select class="form-control" name="serviceID">
+                                        <option></option>{% for site in siteNames %}
+                                        <option value={{site.serviceID}}>{{ site.siteName }}</option>{% endfor %}</select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label class="control-label" contenteditable="true">Exclude Site Name</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <select class="form-control" name="notServiceID">
+                                        <option></option>{% for site in siteNames %}
+                                        <option value={{site.serviceID}}>{{ site.siteName }}</option>{% endfor %}</select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" name='button' value="searchButton" class="btn btn-default">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6"><h3>Enter Item ID to Request or Edit:</h3><h5>Can only request an Item not at
+                        your site. &nbsp;Can only edit an item at your site.</h5>
+                        {% if error %}<h3><strong>Error:</strong> {{ error }}</h3>{% endif %}
+                        {% if successLog %}<h3><strong>{{ successLog }}</strong></h3>{% endif %}
+                        <form class="form-horizontal" role="form" method="post">
+                            <div class="form-group">
+                                <div class="col-sm-2"><label for="inputEmail3" class="control-label">Item ID</label>
+                                </div>
+                                <div class="col-sm-10"><input type="number" class="form-control" name="itemID" min="1"></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-2"><label for="inputEmai23" class="control-label">Units</label>
+                                </div>
+                                <div class="col-sm-10"><input type="number" class="form-control" name="units" min="0"></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" name='button' value='requestButton' class="btn btn-default">Request</button>
+                                    <button type="submit" name='button' value='editButton' class="btn btn-default">Edit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table" id="itemSearchTable">
+                            <thead>
+                                <tr>
+                                    <th>Item #</th>
+                                    <th>Name/Description</th>
+                                    <th>Exp Date</th>
+                                    <th>Units</th>
+                                    <th>Storage Type</th>
+                                    <th>Food or Supply</th>
+                                    <th>Category</th>
+                                    <th>Site Name</th>
+                                </tr>
+                            </thead>
+                            {% if results %}
+                            <tbody>
+                            {% for item in results %}
+                                {% if item.siteName == session.sitename%}
+                                <tr>
+                                    <td bgcolor="#90ee90">{{item.itemID}}</td>
+                                    <td bgcolor="#90ee90">{{item.nameDesc}}</td>
+                                    <td bgcolor="#90ee90">{{item.expDate}}</td>
+                                    <td bgcolor="#90ee90">{{item.units}}</td>
+                                    <td bgcolor="#90ee90">{{item.storageType}}</td>
+                                    <td bgcolor="#90ee90">{{item.foodSupply}}</td>
+                                    <td bgcolor="#90ee90">{{item.category}}</td>
+                                    <td bgcolor="#90ee90">{{item.siteName}}</td>
+                                </tr>
+                                    {% else %}
+                                    <tr>
+                                    <td>{{item.itemID}}</td>
+                                    <td>{{item.nameDesc}}</td>
+                                    <td>{{item.expDate}}</td>
+                                    <td>{{item.units}}</td>
+                                    <td>{{item.storageType}}</td>
+                                    <td>{{item.foodSupply}}</td>
+                                    <td>{{item.category}}</td>
+                                    <td>{{item.siteName}}</td>
+                                </tr>
+                                {% endif %}
+                            {% endfor %}
+                            </tbody>
+                        {% else %}
+                            <tbody></tbody>
+                        {% endif %}
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+</body>
+<script>
+    $(document).ready(function(){
+        var options = {
+            searching: false,
+            lengthChange: false
+        };
+        $('#itemSearchTable').DataTable(options);
+    });
+
+</script>
+</html>

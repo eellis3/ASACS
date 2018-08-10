@@ -1,0 +1,197 @@
+<html><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+    </head><body>
+
+<div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><span>ASACS App</span></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="mainmenu">Main Menu</a>
+                        </li>
+                        <li>
+                            <a href="logout">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class="btn btn-primary" href="clientSearch">Client Search</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class="btn btn-primary" href="editClientInfo">Edit Client</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>
+                            Client Report
+                        </h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 contenteditable="true">Generate Client Report:</h3>
+                        <form class="form-horizontal text-left" role="form" method="post">
+                            <div class="form-group">
+                                <div class="col-sm-2">
+                                    <label class="control-label">Client ID</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <input type="number" class="form-control" name="clientIDnumber">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" name='button' value="getclientinfo" class="btn btn-default">Show Client Information</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table">
+                            <caption>General Client Information</caption>
+                            <thead>
+                                <tr>
+                                    <th>Client ID</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Phone</th>
+                                    <th>ID/Description</th>
+                                    <th>Head of Household</th>
+                                </tr>
+                            </thead>
+                            {% if summary %}
+                            <tbody>
+                                <tr>
+                                    <td>{{summary.clientid}}</td>
+                                    <td>{{summary.firstname}}</td>
+                                    <td>{{summary.lastname}}</td>
+                                    <td>{{summary.phone}}</td>
+                                    <td>{{summary.iddescription}}</td>
+                                    <td>{{summary.headofhousehold}}</td>
+                                </tr>
+                            </tbody>
+                        {% else %}
+                            <tbody></tbody>
+                        {% endif %}
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table">
+                            <caption>Client Waitlist Information</caption>
+                            <thead>
+                                <tr>
+                                    <th>Shelter Site</th>
+                                    <th>Waitlist Order</th>
+                                </tr>
+                            </thead>
+                            {% if waitlist %}
+                            <tbody>
+                                {% for entry in waitlist %}
+                                <tr>
+                                    <td>{{entry.description}}</td>
+                                    <td>{{entry.waitlistorder}}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        {% else %}
+                            <tbody></tbody>
+                        {% endif %}
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table">
+                            <caption>Client Event Log</caption>
+                            <thead>
+                                <tr>
+                                    <th>Log ID</th>
+                                    <th>Timestamp</th>
+                                    <th>Event Description</th>
+                                    <th>Site Name</th>
+                                    <th>Entering User Name</th>
+                                </tr>
+                            </thead>
+                            {% if clientlog %}
+                            <tbody>
+                                {% for event in clientlog %}
+                                <tr>
+                                    <td>{{event.clientlogid}}</td>
+                                    <td>{{event.timestp}}</td>
+                                    <td>{{event.description}}</td>
+                                    <td>{{event.sitename}}</td>
+                                    <td>{{event.username}}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        {% else %}
+                            <tbody></tbody>
+                        {% endif %}
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Edit Client Information</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    Click here to edit client information or add services to client log.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <a class="btn btn-primary" href="editClientInfo">
+                    Edit Client Information
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

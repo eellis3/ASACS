@@ -1,0 +1,4 @@
+1.  Add total Seats to Soup Kitchen and Shelter.  Don't know how many are at a site.
+    A User could accidentally free up more seats than there are avaliable.
+
+2.  extra report that shows the items that are frequently under stocked and cause sites to partially fulfill orders.
